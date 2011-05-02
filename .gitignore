@@ -1,4 +1,5 @@
-war/WEB-INF/classes
-war/WEB-INF/deploy
-war/slides
+src/main/webapp/WEB-INF/classes
+src/main/webapp/WEB-INF/deploy
+src/main/webapp/slides
 .gwt
+target

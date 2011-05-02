@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
 	<application>excilys-gwt-slides</application>
-	<version>1</version>
+	<version>${gae.application.version}</version>
 	<static-files>
         <include path="/index.html" />
         <include path="/main.css" />
@@ -18,4 +18,7 @@
 	<system-properties>
 		<property name="java.util.logging.config.file" value="WEB-INF/logging.properties"/>
 	</system-properties>
+
+    <sessions-enabled>true</sessions-enabled>
+	
 </appengine-web-app>
