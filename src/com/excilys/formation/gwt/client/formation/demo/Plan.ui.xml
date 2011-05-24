@@ -1,0 +1,23 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+    xmlns:g="urn:import:com.google.gwt.user.client.ui" 
+    xmlns:demo="urn:import:com.excilys.formation.gwt.client.formation.demo"
+>
+
+	<g:HTMLPanel>
+		<header>Plan du cours</header>
+		<section>
+			<ul class="summary">
+				<li><demo:DemoAnchor>Introduction</demo:DemoAnchor></li>
+				<li><demo:DemoAnchor>Environnement de développement</demo:DemoAnchor></li>
+				<li><demo:DemoAnchor>Development Mode</demo:DemoAnchor></li>
+				<li><demo:DemoAnchor>Widgets</demo:DemoAnchor></li>
+				<li><demo:DemoAnchor>Events</demo:DemoAnchor></li>
+				<li><demo:DemoAnchor>RPC</demo:DemoAnchor></li>
+				<li><demo:DemoAnchor>UiBinder</demo:DemoAnchor></li>
+				<li><demo:DemoAnchor>ClientBundle</demo:DemoAnchor></li>
+				<li><demo:DemoAnchor>Outils avancés</demo:DemoAnchor></li>
+			</ul>
+		</section>
+	</g:HTMLPanel>
+</ui:UiBinder>
