@@ -4,15 +4,19 @@
 	<version>1</version>
 	<static-files>
         <include path="/index.html" />
+        <include path="/slides.html" />        
         <include path="/main.css" />
         <include path="/src/**/*.*" />
         <include path="/src/*" />
         <include path="/slides/**/*.*" />
         <include path="/slides/*" />
+        <include path="/demo/**/*.*" />
+        <include path="/demo/*" />        
     </static-files>
     <resource-files>
         <exclude path="/src/**/*.*" />
         <exclude path="/slides/**/*.*" />
+        <exclude path="/demo/**/*.*" />        
     </resource-files>
 	<!-- Configure java.util.logging -->
 	<system-properties>
