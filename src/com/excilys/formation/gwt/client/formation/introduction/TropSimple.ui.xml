@@ -7,7 +7,7 @@
 	
 	<ui:with field="brushes" type="com.alexgorbatchev.syntaxhighlighter.client.Brush.Brushes"/>
 
-	<g:HTMLPanel addStyleNames="slide">
+	<g:HTMLPanel>
 		<div ui:field="notes">
 			<ul>
 				<li>Ressemble à du Swing (orienté event)</li>
