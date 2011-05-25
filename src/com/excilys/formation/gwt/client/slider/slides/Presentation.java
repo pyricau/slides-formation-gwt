@@ -107,7 +107,7 @@ public class Presentation extends Composite {
             historyToken = chapterName + SlideViewer.SLIDE_PREFIX + chapter.getSlideName(index);
         }
 
-        History.newItem(historyToken, false);
+        History.newItem("!" + historyToken, false);
 
         slideVisible(index - 1);
         slideVisible(index + 1);

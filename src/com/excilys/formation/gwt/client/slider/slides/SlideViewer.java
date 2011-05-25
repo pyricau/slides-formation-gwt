@@ -210,6 +210,11 @@ public class SlideViewer implements ValueChangeHandler<String>, ChapterHolder {
     @Override
     public void onValueChange(ValueChangeEvent<String> event) {
         String token = event.getValue();
+
+        if (token.startsWith("!")) {
+            token = token.substring(1);
+        }
+
         String chapterName = parseChapterName(token);
 
         int chapterIndex = chapterNames.indexOf(chapterName);

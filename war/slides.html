@@ -31,6 +31,13 @@
 	<link href="src/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 	<title>Formation GWT</title>
 	<script type="text/javascript" language="javascript" src="slides/slides.nocache.js"></script>
+	<!-- I don't know which way to activate hashbang crawling is better. Two different ways :
+	http://code.google.com/web/ajaxcrawling/docs/getting-started.html
+	&
+	http://code.google.com/p/google-web-toolkit/source/diff?spec=svn6211&r=6211&format=side&path=/branches/crawlability/samples/showcase/war/Showcase.html
+	 -->
+	<link rel="indexable" href="#!" />
+	<meta name="fragment" content="!">
 </head>
 <body>
 	<iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1' style="position: absolute; width: 0; height: 0; border: 0"></iframe>
