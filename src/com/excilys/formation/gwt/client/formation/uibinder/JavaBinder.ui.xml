@@ -19,8 +19,8 @@
 			</ul>
 
 		</div>
-		<header>UiBinder  <span class="nicetag">Impératif</span> <span class="keytag">=</span> <span class="greentag">Java</span></header>
-		<section>
+		<div class="header">UiBinder  <span class="nicetag">Impératif</span> <span class="keytag">=</span> <span class="greentag">Java</span></div>
+		<div class="section">
 			<sl:CodeHighlighter addStyleNames="sh" brush="{brushes.JAVA}"><pre>
 				public class Cool extends Composite {
 				
@@ -46,6 +46,6 @@
 				    }
 				}</pre>
 			</sl:CodeHighlighter>
-		</section>
+		</div>
 	</g:HTMLPanel>
 </ui:UiBinder>

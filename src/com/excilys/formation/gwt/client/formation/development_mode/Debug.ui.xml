@@ -13,11 +13,11 @@
 				<li>http://excilys-gwt-slides.appspot.com/?gwt.codesvr=127.0.0.1:9997&amp;trainer=true#DevelopmentMode_Debug</li>
 			</ul>
 		</div>
-		<header>Debug en prod: démo!</header>
-		<section>
-			<example>
+		<div class="header">Debug en prod: démo!</div>
+		<div class="section">
+			<div class="example">
 				<sl:CoolButton />
-			</example>
-		</section>
+			</div>
+		</div>
 	</g:HTMLPanel>
 </ui:UiBinder>

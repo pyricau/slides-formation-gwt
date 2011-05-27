@@ -12,8 +12,8 @@
       o Attention, n’est pas compatible avec toutes les versions de GWT			
 			</pre>
 		</div>	
-		<header>Intégration à Spring</header>
-		<section>
+		<div class="header">Intégration à Spring</div>
+		<div class="section">
 			<ul class="summary">
 				<li>
 					Problème : 1 service = 1 servlet
@@ -30,6 +30,6 @@
 					)
 				</li>
 			</ul>
-		</section>
+		</div>
 	</div>
 </ui:UiBinder>

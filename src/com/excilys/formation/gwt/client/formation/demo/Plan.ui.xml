@@ -5,8 +5,8 @@
 >
 
 	<g:HTMLPanel>
-		<header>Plan du cours</header>
-		<section>
+		<div class="header">Plan du cours</div>
+		<div class="section">
 			<ul class="summary">
 				<li><demo:DemoAnchor>Introduction</demo:DemoAnchor></li>
 				<li><demo:DemoAnchor>Environnement de développement</demo:DemoAnchor></li>
@@ -18,6 +18,6 @@
 				<li><demo:DemoAnchor>ClientBundle</demo:DemoAnchor></li>
 				<li><demo:DemoAnchor>Outils avancés</demo:DemoAnchor></li>
 			</ul>
-		</section>
+		</div>
 	</g:HTMLPanel>
 </ui:UiBinder>

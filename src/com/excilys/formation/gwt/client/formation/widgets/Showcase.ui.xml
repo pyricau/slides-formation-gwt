@@ -5,13 +5,13 @@
 	>
 
 	<g:HTMLPanel addStyleNames="slide">
-		<header>
+		<div class="header">
 			Showcase
-		</header>
-		<section>
+		</div>
+		<div class="section">
 			<sl:DelayedFrame ui:field="visibleWidget"
 	url="http://gwt.google.com/samples/Showcase/Showcase.html" height="500px"
 	width="830px" />
-		</section>
+		</div>
 	</g:HTMLPanel>
 </ui:UiBinder>

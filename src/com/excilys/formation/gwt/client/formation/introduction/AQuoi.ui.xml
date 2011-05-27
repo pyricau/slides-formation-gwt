@@ -25,8 +25,8 @@
       o SPI : Single Page Interface
       		</pre>
 		</div>
-		<header>GWT, à quoi ça sert ?</header>
-		<section>
+		<div class="header">GWT, à quoi ça sert ?</div>
+		<div class="section">
 			<ul class="summary">
 				<li>
 					RIA (
@@ -45,6 +45,6 @@
 					</ul>
 				</li>
 			</ul>
-		</section>
+		</div>
 	</div>
 </ui:UiBinder>

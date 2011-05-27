@@ -17,8 +17,8 @@
 * Attention ! non intégrable (joliement) avec uiBinder
 			</pre>
 		</div>
-		<header>Google Gin</header>
-		<section>
+		<div class="header">Google Gin</div>
+		<div class="section">
 			<p><a href="http://code.google.com/p/google-gin">http://code.google.com/p/google-gin</a></p>
 			<sl:CodeHighlighter addStyleNames="sh" brush="{brushes.JAVA}"><pre>	
 					bind(Homepage.class).to(DefaultHomepage.class);
@@ -42,6 +42,6 @@
 					}
 					</pre>
 				</sl:CodeHighlighter>
-		</section>
+		</div>
 	</g:HTMLPanel>
 </ui:UiBinder>

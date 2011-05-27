@@ -10,12 +10,12 @@
       o Éviter la recompilation complète de l’application à chaque modification
 			</pre>
 		</div>
-		<header>IDE</header>
-		<section>
+		<div class="header">IDE</div>
+		<div class="section">
 			<ul>
 				<li>Plugins</li>
 				<li>DevMode</li>
 			</ul>
-		</section>
+		</div>
 	</div>
 </ui:UiBinder>

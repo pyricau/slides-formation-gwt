@@ -20,8 +20,8 @@
       o Implémente une interface “custom” héritant de HasHandlers	
 			</pre>
 		</div>
-		<header>Enregistrement de handler</header>
-		<section>
+		<div class="header">Enregistrement de handler</div>
+		<div class="section">
 			<sl:CodeHighlighter addStyleNames="sh" brush="{brushes.JAVA}" tabSize="2"><pre>
 					public class MyActionView extends Composite {
 					  // [...]
@@ -41,6 +41,6 @@
 					}
 					</pre>
 				</sl:CodeHighlighter>
-		</section>
+		</div>
 	</g:HTMLPanel>
 </ui:UiBinder>

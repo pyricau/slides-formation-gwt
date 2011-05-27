@@ -23,10 +23,10 @@ Utiliser plusieurs bundle pour éviter le chargement de toutes les ressources
 *  Un Bundle par module			
 			</pre>
 		</div>	
-		<header>
+		<div class="header">
 			Principe
-		</header>
-		<section>
+		</div>
+		<div class="section">
 			<ul class="summary">
 				<li>Regroupement des ressources en Bundle</li>
 				<ul>
@@ -37,6 +37,6 @@ Utiliser plusieurs bundle pour éviter le chargement de toutes les ressources
 				</ul>
 				<li>Traitement à la compilation</li>
 			</ul>
-		</section>
+		</div>
 	</div>
 </ui:UiBinder>

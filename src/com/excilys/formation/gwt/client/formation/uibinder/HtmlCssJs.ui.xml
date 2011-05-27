@@ -17,8 +17,8 @@
 			<li>Séparation structure / mise en forme / comportement</li>
 		</ul>
 		</div>
-		<header><span class="redtag">HTML</span> <span class="keytag">+</span> <span class="yellowtag">CSS</span> <span class="keytag">+</span> <span class="greentag">JS</span></header>
-		<section>
+		<div class="header"><span class="redtag">HTML</span> <span class="keytag">+</span> <span class="yellowtag">CSS</span> <span class="keytag">+</span> <span class="greentag">JS</span></div>
+		<div class="section">
 			<sl:CodeHighlighter addStyleNames="sh" brush="{brushes.JSCRIPT}" htmlScript="true"><pre>
 				&lt;html&gt;
 					&lt;head&gt;
@@ -35,6 +35,6 @@
 					&lt;/body&gt;
 				&lt;/html&gt;</pre>
 			</sl:CodeHighlighter>
-		</section>
+		</div>
 	</g:HTMLPanel>
 </ui:UiBinder>

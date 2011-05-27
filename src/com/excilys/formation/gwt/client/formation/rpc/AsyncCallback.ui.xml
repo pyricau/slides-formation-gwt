@@ -18,8 +18,8 @@
       o Recommandation google : traitement des exceptions	
 			</pre>
 		</div>	
-		<header>Mise en place d'un appel asynchrone</header>
-		<section>
+		<div class="header">Mise en place d'un appel asynchrone</div>
+		<div class="section">
 			<sl:CodeHighlighter addStyleNames="sh" brush="{brushes.JAVA}"><pre>
 				public void sayHello() {
 					HelloServiceAsync service = GWT.create(HelloService.class);
@@ -42,6 +42,6 @@
 					));
 				}</pre>
 			</sl:CodeHighlighter>				
-		</section>
+		</div>
 	</g:HTMLPanel>
 </ui:UiBinder> 

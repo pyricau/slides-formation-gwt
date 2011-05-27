@@ -13,13 +13,13 @@
 * Indexation de site impossible (robots n’exécute pas le javascript)			
 			</pre>
 		</div>
-		<header>Limitations</header>
-		<section>
+		<div class="header">Limitations</div>
+		<div class="section">
 			<ul>
 				<li>Émulation <span class="redtag">JRE</span> partielle</li>
 				<li>Widgets top moumoute</li>
 				<li>Indexation</li>
 			</ul>
-		</section>
+		</div>
 	</div>
 </ui:UiBinder>

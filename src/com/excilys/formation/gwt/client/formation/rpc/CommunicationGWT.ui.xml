@@ -15,14 +15,14 @@
 Seulement des échanges de données			
 			</pre>
 		</div>	
-		<header>Application Web GWT</header>
-		<section>
+		<div class="header">Application Web GWT</div>
+		<div class="section">
 			<ul class="summary">
 				<li>
 					1 seule page HTML + échange de données
 					<div class="{style.communicationGWT}" />
 				</li>
 			</ul>
-		</section>
+		</div>
 	</div>
 </ui:UiBinder>

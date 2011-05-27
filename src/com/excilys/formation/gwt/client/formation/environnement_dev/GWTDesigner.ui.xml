@@ -15,11 +15,11 @@
 Outils WYSIWYG permettant de créer l’IHM GWT			
 			</pre>
 		</div>
-		<header>
+		<div class="header">
 			GWT Designer
-		</header>
-		<section>
+		</div>
+		<div class="section">
 			<div class="{style.schema}" />
-		</section>
+		</div>
 	</div>
 </ui:UiBinder>

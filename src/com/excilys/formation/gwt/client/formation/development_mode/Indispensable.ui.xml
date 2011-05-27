@@ -25,8 +25,8 @@ Shell
 * Affiche les différentes erreurs et les RuntimeException
 			</pre>
 		</div>	
-		<header>Indispensable pour développer</header>
-		<section>
+		<div class="header">Indispensable pour développer</div>
+		<div class="section">
 			<ul class="summary">
 				<li>
 					Intégration à l'IDE, utilisation du navigateur
@@ -43,6 +43,6 @@ Shell
 					</ul>
 				</li>
 			</ul>
-		</section>
+		</div>
 	</div>
 </ui:UiBinder>

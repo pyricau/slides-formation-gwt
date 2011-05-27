@@ -57,7 +57,7 @@ div.slide p {
 	font-size: 20px;
 }
 
-section.intro p {
+div.section.intro p {
 	font-size: 35px;
 }
 
@@ -115,7 +115,7 @@ body.three-d div.slides {
 	src: url(src/LeagueGothic.otf);
 }
 
-header {
+div.header {
 	font-family: 'Junction';
 	font-weight: normal;
 	font-size: 50px;
@@ -168,7 +168,7 @@ h2:first-child {
 	margin-top: 0;
 }
 
-section {
+div.section {
 	font-family: 'Junction';
 	font-size: 50px;
 	color: #3f3f3f;
@@ -202,12 +202,12 @@ section.small {
 	font-size: 24px;
 }
 
-section.small ul {
+div.section.small ul {
 	margin: 0 0 0 15px;
 	padding: 0;
 }
 
-section.small li {
+div.section.small li {
 	padding-bottom: 0;
 }
 
@@ -217,7 +217,7 @@ h2 {
 	/*        font-family: GG240;*/
 }
 
-section.center {
+div.section.center {
 	line-height: 180%;
 	text-align: center;
 	display: table-cell;

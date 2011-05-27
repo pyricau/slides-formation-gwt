@@ -15,14 +15,14 @@
 1 page => Pas d’échange HTML à chaque appel			
 			</pre>
 		</div>	
-		<header>Application Web classique</header>
-		<section>
+		<div class="header">Application Web classique</div>
+		<div class="section">
 			<ul class="summary">
 				<li>
 					Chargement de pages HTML
 					<div class="{style.communicationClassique}" />
 				</li>
 			</ul>
-		</section>
+		</div>
 	</div>
 </ui:UiBinder>

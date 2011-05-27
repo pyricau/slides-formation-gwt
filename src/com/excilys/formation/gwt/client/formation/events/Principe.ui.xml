@@ -11,8 +11,8 @@ Communication :
 * L’ensemble de l’application
 			</pre>
 		</div>
-		<header>Principe</header>
-		<section>
+		<div class="header">Principe</div>
+		<div class="section">
 			<ul class="summary">
 				<li>Couplage faible entre les composants</li>
 				<li>
@@ -23,6 +23,6 @@ Communication :
 					</ul>
 				</li>
 			</ul>
-		</section>
+		</div>
 	</div>
 </ui:UiBinder>

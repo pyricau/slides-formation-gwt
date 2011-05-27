@@ -14,8 +14,8 @@
 				<li>Mélange comportement et structure</li>
 			</ul>
 		</div>
-		<header>Code lisible ?</header>
-		<section>
+		<div class="header">Code lisible ?</div>
+		<div class="section">
 			<sl:CodeHighlighter addStyleNames="sh" brush="{brushes.JAVA}"><pre>	
 				// Code issue d'une vraie application		
 				participationStatusPanel.clear();
@@ -42,6 +42,6 @@
 				participationStatusPanel.add(table);
 				</pre>
 			</sl:CodeHighlighter>
-		</section>
+		</div>
 	</g:HTMLPanel>
 </ui:UiBinder>

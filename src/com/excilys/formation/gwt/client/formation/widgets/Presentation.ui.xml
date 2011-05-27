@@ -29,10 +29,10 @@ Note : durant ce cours il est intéressant d’alterner slide et Showcase.
       o Panel : Conteneur de Widgets (mise en page)					
 			</pre>
 		</div>	
-		<header>
+		<div class="header">
 			Presentation
-		</header>
-		<section class="{style.container}">
+		</div>
+		<div class="section {style.container}">
 			<ul class="summary {style.list}">
 				<li>classe DOM</li>
 				<li>classe Window</li>
@@ -42,6 +42,6 @@ Note : durant ce cours il est intéressant d’alterner slide et Showcase.
 			<img src="http://yuml.me/diagram/scruffy/class/%5BWindow%7C+alert();+confirm();+getClientWidth()%7Bbg:green%7D%5D"/>
 			<img src="http://yuml.me/diagram/scruffy/class/%5BDOM%7C+createDiv();+appendChild();+getElementById()%7Bbg:orange%7D%5D"/>
 			<img src="http://yuml.me/diagram/scruffy/class/[UIObject%7Bbg:blue%7D]%5E-[Widget%7Bbg:yellow%7D],[Panel]%3C%3E-%3E[Widget],[Widget]%5E-[Panel%7Bbg:red%7D]"/>
-		</section>
+		</div>
 	</div>
 </ui:UiBinder>

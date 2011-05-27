@@ -2,13 +2,13 @@
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
 
 	<div>
-		<header>Formateurs</header>
-		<section>
+		<div class="header">Formateurs</div>
+		<div class="section">
 			<ul>
 				<li>Pierre Merienne</li>
 				<li>Pierre-Yves Ricau</li>
 				<li>Mathieu Boniface</li>
 			</ul>
-		</section>
+		</div>
 	</div>
 </ui:UiBinder>

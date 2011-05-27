@@ -14,8 +14,8 @@
 				<li>Démo !</li>
 			</ul>
 		</div>
-		<header>Trop simple !</header>
-		<section>
+		<div class="header">Trop simple !</div>
+		<div class="section">
 			<sl:CodeHighlighter addStyleNames="sh" brush="{brushes.JAVA}"><pre>
 				package fr.koala.gwt.introduction.client;
 				// [...]
@@ -36,10 +36,10 @@
 				    }
 				}</pre>
 			</sl:CodeHighlighter>
-			<example>
+			<div class="example">
 				<g:Label>Salut tout le monde !</g:Label>
 				<g:Button ui:field="button">Cliquez moi</g:Button>
-			</example>
-		</section>
+			</div>
+		</div>
 	</g:HTMLPanel>
 </ui:UiBinder>

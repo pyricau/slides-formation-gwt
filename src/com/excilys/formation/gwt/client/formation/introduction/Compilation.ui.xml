@@ -26,13 +26,13 @@
       o Optimisation et obfuscation des CSS
 			</pre>
 		</div>
-		<header>Compilation</header>
-		<section>
+		<div class="header">Compilation</div>
+		<div class="section">
 			<ul class="summary">
 				<li>Tout se passe à la compilation</li>
 				<li>Création de permutation</li>
 			</ul>
 			<div class="{style.schema}" />
-		</section>
+		</div>
 	</div>
 </ui:UiBinder>

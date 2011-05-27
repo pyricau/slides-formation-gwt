@@ -11,16 +11,16 @@
 * Composants très avancés et surtout très sexy
 			</pre>
 		</div>
-		<header>
+		<div class="header">
 			Ext GWT
-		</header>
-		<section>
+		</div>
+		<div class="section">
 			<p>
 				<a href="http://www.sencha.com/products/extgwt/">http://www.sencha.com/products/extgwt/</a>
 			</p>
 			<sl:DelayedFrame ui:field="visibleWidget"
 				url="http://www.sencha.com/examples/desktop.html" height="500px"
 				width="830px" />
-		</section>
+		</div>
 	</g:HTMLPanel>
 </ui:UiBinder>

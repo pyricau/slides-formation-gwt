@@ -21,13 +21,13 @@
       o Échange avec un Web-Services ou un back end non java			
 			</pre>
 		</div>	
-		<header>Autres méthodes de communication</header>
-		<section>
+		<div class="header">Autres méthodes de communication</div>
+		<div class="section">
 			<ul class="summary">
 				<li>DeRPC (Direct-Eval RPC)</li>
 				<li>JSON</li>
 				<li>RequestBuilder</li>
 			</ul>
-		</section>
+		</div>
 	</div>
 </ui:UiBinder>

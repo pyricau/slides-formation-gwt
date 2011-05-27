@@ -2,11 +2,11 @@
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
 	 
 	<div>
-		<section class="center">
+		<div class="section center">
 			<h1>UI = ?</h1>
 			<p><span class="redtag">Structure</span> <span class="keytag">+</span> <span class="yellowtag">Mise en forme</span> <span class="keytag">+</span> <span class="greentag">Comportement</span></p>
 			<p><span class="redtag">Structure</span> <span class="keytag">+</span> <span class="yellowtag">Mise en forme</span> <span class="keytag">=</span> <span class="nicetag">Code déclaratif</span></p>
 			<p><span class="greentag">Comportement</span> <span class="keytag">=</span> <span class="nicetag">Code impératif</span></p>
-		</section>
+		</div>
 	</div>
 </ui:UiBinder>

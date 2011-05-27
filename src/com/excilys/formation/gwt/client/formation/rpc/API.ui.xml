@@ -19,14 +19,14 @@
       o Déclaration de la servlet dans le web.xml	
 			</pre>
 		</div>
-		<header>API</header>
-		<section>
+		<div class="header">API</div>
+		<div class="section">
 			<div class="summary">
 				<div class="{style.api}" />
 				<ul>
 					<li>Ajouter MonServiceImpl dans le web.xml</li>
 				</ul>
 			</div>
-		</section>
+		</div>
 	</div>
 </ui:UiBinder>

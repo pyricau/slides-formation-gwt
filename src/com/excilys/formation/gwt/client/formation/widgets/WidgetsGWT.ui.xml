@@ -68,10 +68,10 @@ Popup, FlexTable et Menu
       o Widget prêt à l’emploi (c’est pas souvent!)	
 			</pre>
 		</div>
-		<header>
+		<div class="header">
 			Widgets GWT
-		</header>
-		<section>
+		</div>
+		<div class="section">
 			<ul class="summary">
 				<li>
 					Le Showcase GWT détaille les widgets disponibles :
@@ -86,6 +86,6 @@ Popup, FlexTable et Menu
 					</ul>
 				</li>
 			</ul>
-		</section>
+		</div>
 	</div>
 </ui:UiBinder>

@@ -10,16 +10,16 @@
 * Beaucoup de composants intéressants
 			</pre>
 		</div>
-		<header>
+		<div class="header">
 			Smart GWT
-		</header>
-		<section>
+		</div>
+		<div class="section">
 			<p>
 				<a href="http://www.smartclient.com/smartgwt/">http://www.smartclient.com/smartgwt/</a>
 			</p>
 			<sl:DelayedFrame ui:field="visibleWidget"
 				url="http://www.smartclient.com/smartgwt/showcase" height="500px"
 				width="830px" />
-		</section>
+		</div>
 	</g:HTMLPanel>
 </ui:UiBinder>

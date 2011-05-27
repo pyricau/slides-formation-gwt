@@ -21,8 +21,8 @@
 * Définition des types d'évènements émis par un widget dans ces interfaces de types HasHanlders (HasValueChangeHandlers, HasClickHandlers, ...)				
 			</pre>
 		</div>
-		<header>Évènement personnalisé</header>
-		<section>
+		<div class="header">Évènement personnalisé</div>
+		<div class="section">
 			<sl:CodeHighlighter addStyleNames="sh" brush="{brushes.JAVA}"><pre>
 				public class CancelActionEvent 
 				  extends GwtEvent&lt;CancelActionHandler&gt; {
@@ -46,6 +46,6 @@
 				  void onCancelAction(CancelActionEvent event);
 				}</pre>
 			</sl:CodeHighlighter>
-		</section>
+		</div>
 	</g:HTMLPanel>
 </ui:UiBinder>

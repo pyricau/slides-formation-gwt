@@ -10,16 +10,16 @@
 * Écrite par le gars qui a écrit gwt-log
 			</pre>
 		</div>
-		<header>
+		<div class="header">
 			gwt-dnd
-		</header>
-		<section>
+		</div>
+		<div class="section">
 			<p>
 				<a href="http://code.google.com/p/gwt-dnd/">http://code.google.com/p/gwt-dnd/</a>
 			</p>
 			<sl:DelayedFrame ui:field="visibleWidget"
 				url="http://allen-sauer.com/com.allen_sauer.gwt.dnd.demo.DragDropDemo/DragDropDemo.html#BinExample"
 				height="500px" width="830px" />
-		</section>
+		</div>
 	</g:HTMLPanel>
 </ui:UiBinder>

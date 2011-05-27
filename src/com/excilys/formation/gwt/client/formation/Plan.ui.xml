@@ -2,8 +2,8 @@
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
 
 	<div>
-		<header>Plan du cours</header>
-		<section>
+		<div class="header">Plan du cours</div>
+		<div class="section">
 			<ul class="summary">
 				<li><a href="#!Introduction">Introduction</a></li>
 				<li><a href="#!EnvironnementDev">Environnement de développement</a></li>
@@ -16,6 +16,6 @@
 				<li><a href="#!OutilsAvances">Outils avancés</a></li>
 				<li><a href="#!Questionnaires">Questionnaires</a></li>
 			</ul>
-		</section>
+		</div>
 	</div>
 </ui:UiBinder>

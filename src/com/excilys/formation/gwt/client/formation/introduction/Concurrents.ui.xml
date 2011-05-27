@@ -23,11 +23,11 @@ A ne pas trop approfondir sauf si on a de l’expérience.
       o Inconvénients : Peu utilisé, Codage en Javascript
 			</pre>
 		</div>
-		<header>Concurrents</header>
-		<section>
+		<div class="header">Concurrents</div>
+		<div class="section">
 			<ul>
 				<li>Des suggestions ?</li>
 			</ul>
-		</section>
+		</div>
 	</div>
 </ui:UiBinder>

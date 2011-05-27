@@ -17,11 +17,11 @@
 * Debug du client avec des outils natif de Java (Débogueur)
     		</pre>
 		</div>
-		<header>
+		<div class="header">
 			Fonctionnement
-		</header>
-		<section>
+		</div>
+		<div class="section">
 			<div class="{style.schema}" />
-		</section>
+		</div>
 	</div>
 </ui:UiBinder>

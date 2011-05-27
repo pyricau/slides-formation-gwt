@@ -2,8 +2,8 @@
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
 	 
 	<div>
-		<section class="center intro">
+		<div class="section center intro">
 			<h2>Quelques librairies intéressantes</h2>
-		</section>
+		</div>
 	</div>
 </ui:UiBinder>
