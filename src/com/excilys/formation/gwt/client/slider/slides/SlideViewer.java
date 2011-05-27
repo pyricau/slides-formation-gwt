@@ -14,8 +14,13 @@ import com.excilys.formation.gwt.client.slider.window.ChildWindow;
 import com.excilys.formation.gwt.client.slider.window.WindowMessageListener;
 import com.google.gwt.core.client.Scheduler;
 import com.google.gwt.core.client.Scheduler.RepeatingCommand;
+import com.google.gwt.dom.client.NativeEvent;
+import com.google.gwt.event.dom.client.KeyCodes;
 import com.google.gwt.event.logical.shared.ValueChangeEvent;
 import com.google.gwt.event.logical.shared.ValueChangeHandler;
+import com.google.gwt.user.client.Event;
+import com.google.gwt.user.client.Event.NativePreviewEvent;
+import com.google.gwt.user.client.Event.NativePreviewHandler;
 import com.google.gwt.user.client.History;
 import com.google.gwt.user.client.Window.Location;
 import com.google.gwt.user.client.ui.RootPanel;
@@ -115,9 +120,31 @@ public class SlideViewer implements ValueChangeHandler<String>, ChapterHolder {
         presentation = new Presentation(new ShowNotesSender(childWindow));
         stopLoading();
         RootPanel rootPanel = RootPanel.get();
+
         rootPanel.add(presentation);
+
         initializeHistory();
-        registerDocumentEvent(presentation);
+
+        Event.addNativePreviewHandler(new NativePreviewHandler() {
+            @Override
+            public void onPreviewNativeEvent(NativePreviewEvent event) {
+                NativeEvent nativeEvent = event.getNativeEvent();
+                if ("keydown".equals(nativeEvent.getType())) {
+                    int keyCode = nativeEvent.getKeyCode();
+                    switch (keyCode) {
+                    case KeyCodes.KEY_LEFT:
+                        presentation.displayPreviousSlide();
+                        break;
+                    case KeyCodes.KEY_RIGHT:
+                        presentation.displayNextSlide();
+                        break;
+                    case 51:
+                        presentation.switch3D();
+                        break;
+                    }
+                }
+            }
+        });
     }
 
     @Override
@@ -172,40 +199,6 @@ public class SlideViewer implements ValueChangeHandler<String>, ChapterHolder {
             History.fireCurrentHistoryState();
         }
     }
-
-    public native void registerDocumentEvent(Presentation presentation) /*-{
-		var handleBodyKeyDown = function(event) {
-			switch (event.keyCode) {
-			case 37: // left arrow
-				presentation.@com.excilys.formation.gwt.client.slider.slides.Presentation::displayPreviousSlide()();
-				break;
-			case 39: // right arrow
-				presentation.@com.excilys.formation.gwt.client.slider.slides.Presentation::displayNextSlide()();
-				break;
-			case 51: // 3
-				presentation.@com.excilys.formation.gwt.client.slider.slides.Presentation::switch3D()();
-				break;
-			}
-		}
-		$doc.addEventListener('keydown', handleBodyKeyDown, false);
-		$doc.touchStartX = 0;
-		$doc.addEventListener('touchstart', function(e) {
-			$doc.touchStartX = e.touches[0].pageX;
-		}, false);
-		$doc
-				.addEventListener(
-						'touchend',
-						function(e) {
-							var pixelsMoved = $doc.touchStartX
-									- e.changedTouches[0].pageX;
-							var SWIPE_SIZE = 150;
-							if (pixelsMoved > SWIPE_SIZE) {
-								presentation.@com.excilys.formation.gwt.client.slider.slides.Presentation::displayNextSlide()();
-							} else if (pixelsMoved < -SWIPE_SIZE) {
-								presentation.@com.excilys.formation.gwt.client.slider.slides.Presentation::displayPreviousSlide()();
-							}
-						}, false);
-    }-*/;
 
     @Override
     public void onValueChange(ValueChangeEvent<String> event) {
