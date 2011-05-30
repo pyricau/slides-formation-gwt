@@ -3,10 +3,22 @@
 	 
 	<div>
 		<div ui:field="notes">15min, 18h35 - 18h50</div>
-		<div class="header">Évaluation de la formation</div>
+		<div class="learningIcon" />
+		<div class="header">
+			<div class="ebiIcon" />
+			Évaluation de la formation
+		</div>
 		<div class="section center intro">
 			<h1>Avant de partir...</h1>
 			<h2><a href="https://spreadsheets.google.com/a/excilys.com/spreadsheet/viewform?formkey=dE85R2JtY2N3U2UxNzBGUEstdmZaUUE6MA">Cliquez ici !</a></h2>
+		</div>
+		
+		<div class="footer">
+			<div ui:field="pagination" class="footerPagination">Page 1</div>
+			<div class="footerTitle">Parlez –vous GWT – © eBusiness Information - Excilys
+				Group 2011</div>
+			<div ui:field="date" class="footerDate">30/05/2011</div>
+			<div class="excilysIcon" />
 		</div>
 	</div>
 </ui:UiBinder>

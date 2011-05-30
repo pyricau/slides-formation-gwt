@@ -26,13 +26,25 @@
       o Optimisation et obfuscation des CSS
 			</pre>
 		</div>
-		<div class="header">Compilation</div>
+		<div class="learningIcon" />
+		<div class="header">
+			<div class="ebiIcon" />
+			Compilation
+		</div>
 		<div class="section">
 			<ul class="summary">
 				<li>Tout se passe à la compilation</li>
 				<li>Création de permutation</li>
 			</ul>
 			<div class="{style.schema}" />
+		</div>
+								
+		<div class="footer">
+			<div ui:field="pagination" class="footerPagination">Page 5</div>
+			<div class="footerTitle">Parlez –vous GWT – © eBusiness Information - Excilys
+				Group 2011</div>
+			<div ui:field="date" class="footerDate">30/05/2011</div>
+			<div class="excilysIcon" />
 		</div>
 	</div>
 </ui:UiBinder>

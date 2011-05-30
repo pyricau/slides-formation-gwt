@@ -18,7 +18,11 @@
 				<li>Le premier paramètre de l’interface UiBinder est le type de l'élément racine (souvent Widget ou Element), et le deuxième est la classe à laquelle le XML est bindé.</li>
 			</ul>
 		</div>
-		<div class="header">UiBinder <span class="nicetag">Déclaratif</span> <span class="keytag">=</span> <span class="redtag">XML</span> <span class="keytag">+</span> <span class="redtag">HTML</span> <span class="keytag">+</span> <span class="yellowtag">CSS</span></div>
+		<div class="learningIcon" />
+		<div class="header">
+			<div class="ebiIcon" />
+			<span class="nicetag">Déclaratif</span> <span class="keytag">=</span> <span class="redtag">XML</span> <span class="keytag">+</span> <span class="redtag">HTML</span> <span class="keytag">+</span> <span class="yellowtag">CSS</span>
+		</div>
 		<div class="section">
 			<sl:CodeHighlighter addStyleNames="sh" brush="{brushes.XML}"><pre>
 				&lt;!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent"&gt;
@@ -48,6 +52,14 @@
 					
 				&lt;/ui:UiBinder&gt;</pre>
 			</sl:CodeHighlighter>
+		</div>
+		
+		<div class="footer">
+			<div ui:field="pagination" class="footerPagination">Page 6</div>
+			<div class="footerTitle">Parlez –vous GWT – © eBusiness Information - Excilys
+				Group 2011</div>
+			<div ui:field="date" class="footerDate">30/05/2011</div>
+			<div class="excilysIcon" />
 		</div>
 	</g:HTMLPanel>
 </ui:UiBinder>

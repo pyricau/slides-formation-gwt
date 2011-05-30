@@ -5,9 +5,13 @@
 >
 
 	<g:HTMLPanel>
-		<div class="header">Plan du cours</div>
+		<div class="learningIcon"/>
+		<div class="header">
+			<div class="ebiIcon"/>
+			Plan du cours
+		</div>
 		<div class="section">
-			<ul class="summary">
+			<ol class="tableOfContent">
 				<li><demo:DemoAnchor>Introduction</demo:DemoAnchor></li>
 				<li><demo:DemoAnchor>Environnement de développement</demo:DemoAnchor></li>
 				<li><demo:DemoAnchor>Development Mode</demo:DemoAnchor></li>
@@ -17,7 +21,7 @@
 				<li><demo:DemoAnchor>UiBinder</demo:DemoAnchor></li>
 				<li><demo:DemoAnchor>ClientBundle</demo:DemoAnchor></li>
 				<li><demo:DemoAnchor>Outils avancés</demo:DemoAnchor></li>
-			</ul>
+			</ol>
 		</div>
 	</g:HTMLPanel>
 </ui:UiBinder>

@@ -21,11 +21,14 @@ Bundle compatible avec le module I18N de GWT
 * labels.properties			
 			</pre>
 		</div>		
-		<div class="header">Chargement de données texte</div>
+		<div class="learningIcon" />
+		<div class="header">
+			<div class="ebiIcon" />
+			Chargement de données texte
+		</div>
 		<div class="section">
 			<sl:CodeHighlighter addStyleNames="sh" brush="{brushes.JAVA}"><pre>
 				public interface Resources extends ClientBundle {
-				
 					// une ressource synchrone
 					TextResource labels();  
 					
@@ -33,7 +36,6 @@ Bundle compatible avec le module I18N de GWT
 					@Source(“big_labels.txt”)
 				    ExternalTextResource big_labels_async(); 
 				}
-				
 				
 				// synchrone 
 				String labels = Resources.INSTANCE.labels().getText();
@@ -52,6 +54,14 @@ Bundle compatible avec le module I18N de GWT
 							}				
 						});</pre>
 			</sl:CodeHighlighter>
+		</div>
+		
+		<div class="footer">
+			<div ui:field="pagination" class="footerPagination">Page 4</div>
+			<div class="footerTitle">Parlez –vous GWT – © eBusiness Information - Excilys
+				Group 2011</div>
+			<div ui:field="date" class="footerDate">30/05/2011</div>
+			<div class="excilysIcon" />
 		</div>
 	</g:HTMLPanel>
 </ui:UiBinder>

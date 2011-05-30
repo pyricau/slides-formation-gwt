@@ -17,7 +17,11 @@
 * Attention ! non intégrable (joliement) avec uiBinder
 			</pre>
 		</div>
-		<div class="header">Google Gin</div>
+		<div class="learningIcon" />
+		<div class="header">
+			<div class="ebiIcon" />
+			Google Gin
+		</div>
 		<div class="section">
 			<p><a href="http://code.google.com/p/google-gin">http://code.google.com/p/google-gin</a></p>
 			<sl:CodeHighlighter addStyleNames="sh" brush="{brushes.JAVA}"><pre>	
@@ -42,6 +46,14 @@
 					}
 					</pre>
 				</sl:CodeHighlighter>
+		</div>
+		
+		<div class="footer">
+			<div ui:field="pagination" class="footerPagination">Page 7</div>
+			<div class="footerTitle">Parlez –vous GWT – © eBusiness Information - Excilys
+				Group 2011</div>
+			<div ui:field="date" class="footerDate">30/05/2011</div>
+			<div class="excilysIcon" />
 		</div>
 	</g:HTMLPanel>
 </ui:UiBinder>

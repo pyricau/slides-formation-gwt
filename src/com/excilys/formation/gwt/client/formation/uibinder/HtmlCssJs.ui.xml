@@ -17,7 +17,11 @@
 			<li>Séparation structure / mise en forme / comportement</li>
 		</ul>
 		</div>
-		<div class="header"><span class="redtag">HTML</span> <span class="keytag">+</span> <span class="yellowtag">CSS</span> <span class="keytag">+</span> <span class="greentag">JS</span></div>
+		<div class="learningIcon" />
+		<div class="header">
+			<div class="ebiIcon" />
+			<span class="redtag">HTML</span> <span class="keytag">+</span> <span class="yellowtag">CSS</span> <span class="keytag">+</span> <span class="greentag">JS</span>
+		</div>
 		<div class="section">
 			<sl:CodeHighlighter addStyleNames="sh" brush="{brushes.JSCRIPT}" htmlScript="true"><pre>
 				&lt;html&gt;
@@ -35,6 +39,14 @@
 					&lt;/body&gt;
 				&lt;/html&gt;</pre>
 			</sl:CodeHighlighter>
+		</div>
+		
+		<div class="footer">
+			<div ui:field="pagination" class="footerPagination">Page 5</div>
+			<div class="footerTitle">Parlez –vous GWT – © eBusiness Information - Excilys
+				Group 2011</div>
+			<div ui:field="date" class="footerDate">30/05/2011</div>
+			<div class="excilysIcon" />
 		</div>
 	</g:HTMLPanel>
 </ui:UiBinder>

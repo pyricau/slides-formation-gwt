@@ -29,7 +29,9 @@ Note : durant ce cours il est intéressant d’alterner slide et Showcase.
       o Panel : Conteneur de Widgets (mise en page)					
 			</pre>
 		</div>	
+		<div class="learningIcon" />
 		<div class="header">
+			<div class="ebiIcon" />
 			Presentation
 		</div>
 		<div class="section {style.container}">
@@ -42,6 +44,14 @@ Note : durant ce cours il est intéressant d’alterner slide et Showcase.
 			<img src="http://yuml.me/diagram/scruffy/class/%5BWindow%7C+alert();+confirm();+getClientWidth()%7Bbg:green%7D%5D"/>
 			<img src="http://yuml.me/diagram/scruffy/class/%5BDOM%7C+createDiv();+appendChild();+getElementById()%7Bbg:orange%7D%5D"/>
 			<img src="http://yuml.me/diagram/scruffy/class/[UIObject%7Bbg:blue%7D]%5E-[Widget%7Bbg:yellow%7D],[Panel]%3C%3E-%3E[Widget],[Widget]%5E-[Panel%7Bbg:red%7D]"/>
+		</div>
+			
+		<div class="footer">
+			<div ui:field="pagination" class="footerPagination">Page 2</div>
+			<div class="footerTitle">Parlez –vous GWT – © eBusiness Information - Excilys
+				Group 2011</div>
+			<div ui:field="date" class="footerDate">30/05/2011</div>
+			<div class="excilysIcon" />
 		</div>
 	</div>
 </ui:UiBinder>

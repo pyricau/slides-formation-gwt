@@ -21,13 +21,25 @@
       o Échange avec un Web-Services ou un back end non java			
 			</pre>
 		</div>	
-		<div class="header">Autres méthodes de communication</div>
+		<div class="learningIcon" />
+		<div class="header">
+			<div class="ebiIcon" />
+			Autres méthodes de communication
+		</div>
 		<div class="section">
 			<ul class="summary">
 				<li>DeRPC (Direct-Eval RPC)</li>
 				<li>JSON</li>
 				<li>RequestBuilder</li>
 			</ul>
+		</div>
+		
+		<div class="footer">
+			<div ui:field="pagination" class="footerPagination">Page 8</div>
+			<div class="footerTitle">Parlez –vous GWT – © eBusiness Information - Excilys
+				Group 2011</div>
+			<div ui:field="date" class="footerDate">30/05/2011</div>
+			<div class="excilysIcon" />
 		</div>
 	</div>
 </ui:UiBinder>

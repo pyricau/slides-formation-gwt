@@ -10,8 +10,10 @@
 * Écrite par le gars qui a écrit gwt-log
 			</pre>
 		</div>
+		<div class="learningIcon" />
 		<div class="header">
-			gwt-dnd
+			<div class="ebiIcon" />
+			Gwt-dnd
 		</div>
 		<div class="section">
 			<p>
@@ -20,6 +22,14 @@
 			<sl:DelayedFrame ui:field="visibleWidget"
 				url="http://allen-sauer.com/com.allen_sauer.gwt.dnd.demo.DragDropDemo/DragDropDemo.html#BinExample"
 				height="500px" width="830px" />
+		</div>
+		
+		<div class="footer">
+			<div ui:field="pagination" class="footerPagination">Page 8</div>
+			<div class="footerTitle">Parlez –vous GWT – © eBusiness Information - Excilys
+				Group 2011</div>
+			<div ui:field="date" class="footerDate">30/05/2011</div>
+			<div class="excilysIcon" />
 		</div>
 	</g:HTMLPanel>
 </ui:UiBinder>

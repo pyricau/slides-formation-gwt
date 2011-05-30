@@ -5,13 +5,23 @@
 	>
 
 	<g:HTMLPanel addStyleNames="slide">
+		<div class="learningIcon" />
 		<div class="header">
+			<div class="ebiIcon" />
 			Showcase
 		</div>
 		<div class="section">
 			<sl:DelayedFrame ui:field="visibleWidget"
 	url="http://gwt.google.com/samples/Showcase/Showcase.html" height="500px"
 	width="830px" />
+		</div>
+		
+		<div class="footer">
+			<div ui:field="pagination" class="footerPagination">Page 4</div>
+			<div class="footerTitle">Parlez –vous GWT – © eBusiness Information - Excilys
+				Group 2011</div>
+			<div ui:field="date" class="footerDate">30/05/2011</div>
+			<div class="excilysIcon" />
 		</div>
 	</g:HTMLPanel>
 </ui:UiBinder>

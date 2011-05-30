@@ -15,7 +15,11 @@
 	</ui:style>
 
 	<div>
-		<div class="header">Steal this slideshow!</div>
+		<div class="learningIcon" />
+		<div class="header">
+			<div class="ebiIcon" />
+			Steal this slideshow!
+		</div>
 		<div class="section">
 			<div class="{style.space}">
 			<h1>Slides full GWT</h1>
@@ -33,6 +37,13 @@
 			</p>
 			</div>
 
+			<div class="footer">
+				<div ui:field="pagination" class="footerPagination">Page 6</div>
+				<div class="footerTitle">Parlez –vous GWT – © eBusiness Information - Excilys
+					Group 2011</div>
+				<div ui:field="date" class="footerDate">30/05/2011</div>
+				<div class="excilysIcon" />
+			</div>
 		</div>
 	</div>
 </ui:UiBinder>

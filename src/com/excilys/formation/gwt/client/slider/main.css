@@ -1,3 +1,7 @@
+@def themeMainColor #9fc823;
+@def headerHeight 50px;
+@def footerHeight 20px;
+
 
 body {
 	font: 14px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
@@ -32,7 +36,7 @@ div.slides {
 	-o-transition: literal("-o-transform 1s ease-in-out");
 }
 
-div.slide {
+@sprite div.slide {
 	display: none;
 	position: absolute;
 	overflow: hidden;
@@ -41,9 +45,9 @@ div.slide {
 	left: 50%;
 	top: 50%;
 	margin-top: -350px;
-	background: literal("-webkit-gradient(linear, left bottom, left top, from(#bbd), to(#fff) )");
+	background-color: white;
+	gwt-image: "slideBg";
 	-webkit-transition: margin 0.25s ease-in-out;
-	background-color: #eee;
 	background: literal("-moz-linear-gradient(left bottom, #bbd, #fff)");
 	-moz-transition: margin 0.25s ease-in-out;
 	-o-transition: margin 0.25s ease-in-out;
@@ -67,6 +71,16 @@ button {
 
 .summary {
 	font-size: 30px;
+	list-style-type: square;
+}
+
+@sprite .tableOfContent {
+	width: 100%;
+	font-size: 30px;
+	font-weight: bold;
+	padding-left: 250px;
+	margin: 5px;
+	gwt-image: "planBg";
 }
 
 .bullets {
@@ -115,19 +129,82 @@ body.three-d div.slides {
 	src: url(src/LeagueGothic.otf);
 }
 
+@sprite .learningIcon {
+	position:absolute;
+	left: 10px;
+	top: 10px;
+	z-index: 100;
+	gwt-image: "learningIcon";
+}
+
+@sprite .ebiIcon {
+	position:absolute;
+	padding: 0px;
+	margin: 0px;
+	left: 10px;
+	top: 0px;
+	bottom: 0px;
+	z-index: 100;
+	gwt-image: "ebiIcon";
+}
+
 div.header {
 	font-family: 'Junction';
 	font-weight: normal;
-	font-size: 50px;
+	font-size: 40px;
 	letter-spacing: -.05em;
 	color: white;
-	color: black;
-	text-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px;
+	background-color: themeMainColor;
+	text-shadow: black 1px 1px 2px;
 	position: absolute;
-	left: 30px;
+	left: 0px;
+	right: 20px;
 	top: 25px;
+	height: headerHeight;
 	margin: 0;
-	padding: 0;
+	padding-left: 270px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top-right-radius: 20px;
+	-moz-border-radius-topright: 20px;
+	border-bottom-right-radius: 20px;
+	-moz-border-radius-bottomright: 20px;
+}
+
+div.footer {
+	position: absolute;
+    bottom: 5px;
+    left: 0px;
+    width: 97%;
+	height: footerHeight;
+	padding-left: 10px;
+	font-size: 10px;
+}
+
+.footerPagination {
+	float: left;
+	width: 25%;
+}
+
+.footerTitle {
+	float: left;
+	margin: 0 auto;	
+	width: 50%;
+}
+
+.footerDate {
+	float: left;
+	width: 25%;
+}
+
+@sprite .excilysIcon {
+	position:absolute;
+	padding: 5px;
+	margin: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 100;
+	gwt-image: "excilysIcon";
 }
 
 .intro h1 {
@@ -173,8 +250,8 @@ div.section {
 	font-size: 50px;
 	color: #3f3f3f;
 	text-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px;
-	margin-left: 30px;
-	margin-right: 30px;
+	margin-left: 5px;
+	margin-right: 5px;
 	margin-top: 100px;
 	display: block;
 	overflow: hidden;

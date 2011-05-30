@@ -33,7 +33,11 @@ Inconvénients :
     * Chaque locale ajoutée génère des permutations supplémentaires lors de la compilation			
 			</pre>
 		</div>
-		<div class="header">Internationalisation</div>
+		<div class="learningIcon" />
+		<div class="header">
+			<div class="ebiIcon" />
+			Internationalisation
+		</div>
 		<div class="section">
 			<sl:CodeHighlighter addStyleNames="sh" brush="{brushes.JAVA}"><pre>
 				public interface MyMessages extends Messages {
@@ -59,6 +63,14 @@ Inconvénients :
 			</sl:CodeHighlighter>			
 		</li>
 	</ul>			
+		</div>
+		
+		<div class="footer">
+			<div ui:field="pagination" class="footerPagination">Page 5</div>
+			<div class="footerTitle">Parlez –vous GWT – © eBusiness Information - Excilys
+				Group 2011</div>
+			<div ui:field="date" class="footerDate">30/05/2011</div>
+			<div class="excilysIcon" />
 		</div>
 	</g:HTMLPanel>
 </ui:UiBinder> 

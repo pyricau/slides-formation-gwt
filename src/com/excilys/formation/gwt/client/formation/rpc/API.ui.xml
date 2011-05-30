@@ -19,7 +19,11 @@
       o Déclaration de la servlet dans le web.xml	
 			</pre>
 		</div>
-		<div class="header">API</div>
+		<div class="learningIcon" />
+		<div class="header">
+			<div class="ebiIcon" />
+			API
+		</div>
 		<div class="section">
 			<div class="summary">
 				<div class="{style.api}" />
@@ -27,6 +31,14 @@
 					<li>Ajouter MonServiceImpl dans le web.xml</li>
 				</ul>
 			</div>
+		</div>
+		
+		<div class="footer">
+			<div ui:field="pagination" class="footerPagination">Page 5</div>
+			<div class="footerTitle">Parlez –vous GWT – © eBusiness Information - Excilys
+				Group 2011</div>
+			<div ui:field="date" class="footerDate">30/05/2011</div>
+			<div class="excilysIcon" />
 		</div>
 	</div>
 </ui:UiBinder>

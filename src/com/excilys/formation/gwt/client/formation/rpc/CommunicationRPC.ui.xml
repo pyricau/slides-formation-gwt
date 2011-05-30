@@ -24,7 +24,11 @@
       o Contenu dans le war de l’application
 			</pre>
 		</div>	
-		<div class="header">Communication via RPC</div>
+		<div class="learningIcon" />
+		<div class="header">
+			<div class="ebiIcon" />
+			Communication via RPC
+		</div>
 		<div class="section">
 			<ul class="summary">
 				<li>Partage du modèle entre client et serveur</li>
@@ -32,6 +36,14 @@
 				<li>Appels asynchrones</li>
 				<li>Sérialisation des données</li>
 			</ul>
+		</div>
+		
+		<div class="footer">
+			<div ui:field="pagination" class="footerPagination">Page 4</div>
+			<div class="footerTitle">Parlez –vous GWT – © eBusiness Information - Excilys
+				Group 2011</div>
+			<div ui:field="date" class="footerDate">30/05/2011</div>
+			<div class="excilysIcon" />
 		</div>
 	</div>
 </ui:UiBinder>

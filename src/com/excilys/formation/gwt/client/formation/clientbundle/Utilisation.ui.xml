@@ -14,7 +14,11 @@
 * Utilisation de @Source pour associer à une ressource différente			
 			</pre>
 		</div>	
-		<div class="header">Utilisation</div>
+		<div class="learningIcon" />
+		<div class="header">
+			<div class="ebiIcon" />
+			Utilisation
+		</div>
 		<div class="section">
 			<sl:CodeHighlighter addStyleNames="sh" brush="{brushes.JAVA}"><pre>
 				public interface Resources extends ClientBundle {
@@ -33,6 +37,14 @@
 				
 				}</pre>
 			</sl:CodeHighlighter>
+		</div>
+		
+		<div class="footer">
+			<div ui:field="pagination" class="footerPagination">Page 3</div>
+			<div class="footerTitle">Parlez –vous GWT – © eBusiness Information - Excilys
+				Group 2011</div>
+			<div ui:field="date" class="footerDate">30/05/2011</div>
+			<div class="excilysIcon" />
 		</div>
 	</g:HTMLPanel>
 </ui:UiBinder>

@@ -10,12 +10,24 @@
       o Éviter la recompilation complète de l’application à chaque modification
 			</pre>
 		</div>
-		<div class="header">IDE</div>
+		<div class="learningIcon" />
+		<div class="header">
+			<div class="ebiIcon" />
+			IDE
+		</div>
 		<div class="section">
 			<ul>
 				<li>Plugins</li>
 				<li>DevMode</li>
 			</ul>
+		</div>
+						
+		<div class="footer">
+			<div ui:field="pagination" class="footerPagination">Page 2</div>
+			<div class="footerTitle">Parlez –vous GWT – © eBusiness Information - Excilys
+				Group 2011</div>
+			<div ui:field="date" class="footerDate">30/05/2011</div>
+			<div class="excilysIcon" />
 		</div>
 	</div>
 </ui:UiBinder>

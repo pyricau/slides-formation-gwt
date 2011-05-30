@@ -10,7 +10,9 @@
 * Beaucoup de composants intéressants
 			</pre>
 		</div>
+		<div class="learningIcon" />
 		<div class="header">
+			<div class="ebiIcon" />
 			Smart GWT
 		</div>
 		<div class="section">
@@ -20,6 +22,14 @@
 			<sl:DelayedFrame ui:field="visibleWidget"
 				url="http://www.smartclient.com/smartgwt/showcase" height="500px"
 				width="830px" />
+		</div>
+		
+		<div class="footer">
+			<div ui:field="pagination" class="footerPagination">Page 6</div>
+			<div class="footerTitle">Parlez –vous GWT – © eBusiness Information - Excilys
+				Group 2011</div>
+			<div ui:field="date" class="footerDate">30/05/2011</div>
+			<div class="excilysIcon" />
 		</div>
 	</g:HTMLPanel>
 </ui:UiBinder>

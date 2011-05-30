@@ -13,13 +13,25 @@
 * Indexation de site impossible (robots n’exécute pas le javascript)			
 			</pre>
 		</div>
-		<div class="header">Limitations</div>
+		<div class="learningIcon" />
+		<div class="header">
+			<div class="ebiIcon" />
+			Limitations
+		</div>
 		<div class="section">
 			<ul>
 				<li>Émulation <span class="redtag">JRE</span> partielle</li>
 				<li>Widgets top moumoute</li>
 				<li>Indexation</li>
 			</ul>
+		</div>
+												
+		<div class="footer">
+			<div ui:field="pagination" class="footerPagination">Page 7</div>
+			<div class="footerTitle">Parlez –vous GWT – © eBusiness Information - Excilys
+				Group 2011</div>
+			<div ui:field="date" class="footerDate">30/05/2011</div>
+			<div class="excilysIcon" />
 		</div>
 	</div>
 </ui:UiBinder>

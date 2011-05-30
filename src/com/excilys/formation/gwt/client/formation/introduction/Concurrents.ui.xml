@@ -23,11 +23,23 @@ A ne pas trop approfondir sauf si on a de l’expérience.
       o Inconvénients : Peu utilisé, Codage en Javascript
 			</pre>
 		</div>
-		<div class="header">Concurrents</div>
+		<div class="learningIcon" />
+		<div class="header">
+			<div class="ebiIcon" />
+			Concurrents
+		</div>
 		<div class="section">
 			<ul>
 				<li>Des suggestions ?</li>
 			</ul>
+		</div>
+
+		<div class="footer">
+			<div ui:field="pagination" class="footerPagination">Page 8</div>
+			<div class="footerTitle">Parlez –vous GWT – © eBusiness Information - Excilys
+				Group 2011</div>
+			<div ui:field="date" class="footerDate">30/05/2011</div>
+			<div class="excilysIcon" />
 		</div>
 	</div>
 </ui:UiBinder>

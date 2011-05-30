@@ -14,7 +14,11 @@
 				<li>Démo !</li>
 			</ul>
 		</div>
-		<div class="header">Trop simple !</div>
+		<div class="learningIcon" />
+		<div class="header">
+			<div class="ebiIcon" />
+			Trop simple !
+		</div>
 		<div class="section">
 			<sl:CodeHighlighter addStyleNames="sh" brush="{brushes.JAVA}"><pre>
 				package fr.koala.gwt.introduction.client;
@@ -40,6 +44,14 @@
 				<g:Label>Salut tout le monde !</g:Label>
 				<g:Button ui:field="button">Cliquez moi</g:Button>
 			</div>
+		</div>
+										
+		<div class="footer">
+			<div ui:field="pagination" class="footerPagination">Page 6</div>
+			<div class="footerTitle">Parlez –vous GWT – © eBusiness Information - Excilys
+				Group 2011</div>
+			<div ui:field="date" class="footerDate">30/05/2011</div>
+			<div class="excilysIcon" />
 		</div>
 	</g:HTMLPanel>
 </ui:UiBinder>
