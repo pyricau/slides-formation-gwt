@@ -50,7 +50,7 @@
 		
 		<div class="footer">
 			<div ui:field="pagination" class="footerPagination">Page 7</div>
-			<div class="footerTitle">Parlez –vous GWT – © eBusiness Information - Excilys
+			<div class="footerTitle">Parlez–vous GWT – © eBusiness Information - Excilys
 				Group 2011</div>
 			<div ui:field="date" class="footerDate">30/05/2011</div>
 			<div class="excilysIcon" />
