@@ -349,7 +349,7 @@ pre.important input[type="range"] {
 	width: auto;
 }
 
-example {
+.example {
 	font-size: 16px;
 	display: block;
 	padding: 10px 20px;
