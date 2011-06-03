@@ -149,7 +149,6 @@ public class SlideViewer implements ValueChangeHandler<String>, ChapterHolder {
 
     @Override
     public void addChapter(Chapter chapter) {
-        chapter.setHolderName(ClassHelper.getSimpleName(presentationBuilder));
         chapters.add(chapter);
         String chapterName = chapter.getName();
         chapterName = chapterName.replace("_", "");
