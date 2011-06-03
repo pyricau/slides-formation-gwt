@@ -13,9 +13,9 @@
     <g:HTMLPanel>
         <div>
         
-            <div class="{style.space}">Pour en savoir plus, inscrivez-vous à la formation GWT. Promis, c'est top moumoute !!</div>
+            <div class="{style.space}">Intéressé(e) ? Pour en savoir plus, inscrivez-vous à la formation GWT !</div>
             
-            <div class="{style.space}"><a target="_blank" href="http://perdu.com">LE LIEN D'INSCRIPTION, A CHANGER</a></div>   
+            <div class="{style.space}">Envoyez un mail à <a href="mailto:training@excilys.com">training@excilys.com</a> ou appelez le <strong>01 41 24 43 20</strong>.</div>   
                   
             <div class="{style.space}"><g:Button ui:field="closeButton">Peu importe</g:Button></div>
         </div>
