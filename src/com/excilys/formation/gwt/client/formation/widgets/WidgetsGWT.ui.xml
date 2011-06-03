@@ -68,12 +68,12 @@ Popup, FlexTable et Menu
       o Widget prêt à l’emploi (c’est pas souvent!)	
 			</pre>
 		</div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Widgets GWT
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<ul class="summary">
 				<li>
 					Le Showcase GWT détaille les widgets disponibles :

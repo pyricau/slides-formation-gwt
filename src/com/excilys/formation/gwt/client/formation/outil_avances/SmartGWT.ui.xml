@@ -10,12 +10,12 @@
 * Beaucoup de composants intéressants
 			</pre>
 		</div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Smart GWT
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<p>
 				<a href="http://www.smartclient.com/smartgwt/">http://www.smartclient.com/smartgwt/</a>
 			</p>

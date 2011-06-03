@@ -23,12 +23,12 @@ Utiliser plusieurs bundle pour éviter le chargement de toutes les ressources
 *  Un Bundle par module			
 			</pre>
 		</div>	
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Principe
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<ul class="summary">
 				<li>Regroupement des ressources en Bundle</li>
 				<ul>

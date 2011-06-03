@@ -3,12 +3,12 @@
 	 
 	<div>
 		<div ui:field="notes">15min, 18h35 - 18h50</div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Évaluation de la formation
 		</div>
-		<div class="section center intro">
+        <div class="learningIcon" />
+        <div class="section center intro">
 			<h1>Avant de partir...</h1>
 			<h2><a href="https://spreadsheets.google.com/a/excilys.com/spreadsheet/viewform?formkey=dE85R2JtY2N3U2UxNzBGUEstdmZaUUE6MA">Cliquez ici !</a></h2>
 		</div>

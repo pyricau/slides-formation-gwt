@@ -27,12 +27,12 @@
       o Optimisation et obfuscation des CSS
 			</pre>
 		</div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Compilation
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<ul class="summary">
 				<li>Tout se passe à la compilation</li>
 				<li>Création de permutation</li>

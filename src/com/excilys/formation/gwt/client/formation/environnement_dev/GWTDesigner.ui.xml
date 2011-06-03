@@ -15,12 +15,12 @@
 Outils WYSIWYG permettant de créer l’IHM GWT			
 			</pre>
 		</div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			GWT Designer
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<div class="{style.schema}" />
 		</div>
 		

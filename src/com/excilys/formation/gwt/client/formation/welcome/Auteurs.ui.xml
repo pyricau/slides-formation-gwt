@@ -2,12 +2,12 @@
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
 
 	<div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Formateurs
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<ul>
 				<li>Pierre Merienne</li>
 				<li>Pierre-Yves Ricau</li>

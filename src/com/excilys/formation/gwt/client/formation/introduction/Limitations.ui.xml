@@ -13,12 +13,12 @@
 * Indexation de site impossible (robots n’exécute pas le javascript)			
 			</pre>
 		</div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Limitations
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<ul>
 				<li>Émulation <span class="redtag">JRE</span> partielle</li>
 				<li>Widgets simples</li>

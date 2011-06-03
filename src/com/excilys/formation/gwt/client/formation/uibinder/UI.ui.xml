@@ -2,11 +2,11 @@
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
 	 
 	<div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 		</div>
-		<div class="section center">
+        <div class="learningIcon" />
+        <div class="section center">
 			<h1>UI = ?</h1>
 			<p><span class="redtag">Structure</span> <span class="keytag">+</span> <span class="yellowtag">Mise en forme</span> <span class="keytag">+</span> <span class="greentag">Comportement</span></p>
 			<p><span class="redtag">Structure</span> <span class="keytag">+</span> <span class="yellowtag">Mise en forme</span> <span class="keytag">=</span> <span class="nicetag">Code déclaratif</span></p>

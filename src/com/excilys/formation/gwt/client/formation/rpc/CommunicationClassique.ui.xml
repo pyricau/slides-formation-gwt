@@ -16,12 +16,12 @@
 				1 page => Pas d’échange HTML à chaque appel			
 			</pre>
 		</div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Application Web classique
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<ul class="summary">
 				<li>
 					Chargement de pages HTML

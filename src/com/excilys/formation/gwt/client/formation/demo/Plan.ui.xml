@@ -10,7 +10,8 @@
 			<div class="ebiIcon"/>
 			Plan du cours
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<ol class="tableOfContent">
 				<li><demo:DemoAnchor>Introduction</demo:DemoAnchor></li>
 				<li><demo:DemoAnchor>Environnement de développement</demo:DemoAnchor></li>

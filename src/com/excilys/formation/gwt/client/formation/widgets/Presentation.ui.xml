@@ -29,12 +29,12 @@ Note : durant ce cours il est intéressant d’alterner slide et Showcase.
       o Panel : Conteneur de Widgets (mise en page)					
 			</pre>
 		</div>	
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Presentation
 		</div>
-		<div class="section {style.container}">
+        <div class="learningIcon" />
+        <div class="section {style.container}">
 			<ul class="summary {style.list}">
 				<li>classe DOM</li>
 				<li>classe Window</li>

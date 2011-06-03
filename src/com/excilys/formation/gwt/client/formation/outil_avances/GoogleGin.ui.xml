@@ -17,12 +17,12 @@
 * Attention ! non intégrable (joliement) avec uiBinder
 			</pre>
 		</div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Google Gin
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<p><a href="http://code.google.com/p/google-gin">http://code.google.com/p/google-gin</a></p>
 			<sl:CodeHighlighter addStyleNames="sh" brush="{brushes.JAVA}"><pre>	
 					bind(Homepage.class).to(DefaultHomepage.class);

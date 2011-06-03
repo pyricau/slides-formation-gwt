@@ -17,12 +17,12 @@ o Outil de profiling pour détecter et résoudre des problèmes de performance
 o Montrer utilisation rapide sur http://code.google.com/intl/fr-FR/webtoolkit/speedtracer/bad-layout.html	
 			</pre>
 		</div>	
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Speed Tracer
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<div class="{style.schema}" />
 		</div>
 

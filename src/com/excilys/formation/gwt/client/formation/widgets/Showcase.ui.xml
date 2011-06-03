@@ -5,12 +5,12 @@
 	>
 
 	<g:HTMLPanel addStyleNames="slide">
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Showcase
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<sl:DelayedFrame ui:field="visibleWidget"
 	url="http://gwt.google.com/samples/Showcase/Showcase.html" height="500px"
 	width="830px" />

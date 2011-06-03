@@ -20,12 +20,12 @@
       o Implémente une interface “custom” héritant de HasHandlers	
 			</pre>
 		</div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Enregistrement de handler
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<sl:CodeHighlighter addStyleNames="sh" brush="{brushes.JAVA}" tabSize="2"><pre>
 					public class MyActionView extends Composite {
 					  // [...]

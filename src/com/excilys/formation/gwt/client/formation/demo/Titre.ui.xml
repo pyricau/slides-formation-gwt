@@ -3,11 +3,11 @@
 	 
 	<div>
 		<div ui:field="notes">20 min, 9h15 - 9h35</div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 		</div>
-		<div class="section center intro">
+        <div class="learningIcon" />
+        <div class="section center intro">
 			<h1>Parlez-vous GWT ?</h1>
 			<h2>Aperçu</h2>
 			<p>Utilisez <span class="ebiztag">←</span> <span class="ebiztag">→</span> pour naviguer</p>

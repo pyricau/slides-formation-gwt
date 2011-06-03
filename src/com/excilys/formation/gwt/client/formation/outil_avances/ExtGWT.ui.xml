@@ -11,12 +11,12 @@
 * Composants très avancés et surtout très sexy
 			</pre>
 		</div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Ext GWT
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<p>
 				<a href="http://www.sencha.com/products/extgwt/">http://www.sencha.com/products/extgwt/</a>
 			</p>

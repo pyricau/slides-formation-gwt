@@ -11,12 +11,12 @@ o Outils, Emulation de la JRE
 o UIBinder, Code splitting, ...
 			</pre>
 		</div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Historique
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<ul class="summary">
 				<li>
 					<span class="nicetag">GWT 1.0</span>

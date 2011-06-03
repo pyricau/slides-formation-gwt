@@ -17,12 +17,12 @@
 			<li>Séparation structure / mise en forme / comportement</li>
 		</ul>
 		</div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			<span class="redtag">HTML</span> <span class="keytag">+</span> <span class="yellowtag">CSS</span> <span class="keytag">+</span> <span class="greentag">JS</span>
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<sl:CodeHighlighter addStyleNames="sh" brush="{brushes.JSCRIPT}" htmlScript="true"><pre>
 				&lt;html&gt;
 					&lt;head&gt;

@@ -10,12 +10,12 @@
 * Écrite par le gars qui a écrit gwt-log
 			</pre>
 		</div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Gwt-dnd
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<p>
 				<a href="http://code.google.com/p/gwt-dnd/">http://code.google.com/p/gwt-dnd/</a>
 			</p>

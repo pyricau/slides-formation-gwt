@@ -3,11 +3,11 @@
 	 
 	<div>
 		<div ui:field="notes">45min, 10h50 - 11h35</div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 		</div>
-		<div class="section center intro">
+        <div class="learningIcon" />
+        <div class="section center intro">
 			<h1>Development Mode</h1>
 			<h2>Formation GWT</h2>
 		</div>

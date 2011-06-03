@@ -25,12 +25,12 @@
       o SPI : Single Page Interface
       		</pre>
 		</div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			GWT, à quoi ça sert ?
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<ul class="summary">
 				<li>RIA Web : <span class="redtag">HTML</span> <span class="keytag">+</span> <span class="ebiztag">Javascript</span> <span class="keytag">+</span> <span class="yellowtag">CSS</span> </li>
 				<li>Développées en <span class="ebiztag">Java</span> <span class="keytag">+</span> <span class="redtag">XML</span></li>

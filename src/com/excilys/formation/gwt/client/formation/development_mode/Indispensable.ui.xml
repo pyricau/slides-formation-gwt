@@ -25,12 +25,12 @@ Shell
 * Affiche les différentes erreurs et les RuntimeException
 			</pre>
 		</div>	
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Indispensable pour développer
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<ul class="summary">
 				<li>
 					Intégration à l'IDE, utilisation du navigateur

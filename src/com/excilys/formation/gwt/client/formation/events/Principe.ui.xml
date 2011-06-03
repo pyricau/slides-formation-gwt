@@ -11,11 +11,11 @@ Communication :
 * L’ensemble de l’application
 			</pre>
 		</div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />Principe
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<ul class="summary">
 				<li>Couplage faible entre les composants</li>
 				<li>

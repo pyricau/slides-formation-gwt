@@ -2,12 +2,11 @@
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
 	 
 	<div>
-		<div class="learningIcon" />
 		<div ui:field="notes">45min, 14h05 - 14h50 (puis pause 15 min)</div>	
 		<div class="header">
 			<div class="ebiIcon" />
 		</div>
-		
+		<div class="learningIcon" />
 		<div class="section center intro">
 			<h1>RPC</h1>
 			<h2>Formation GWT</h2>

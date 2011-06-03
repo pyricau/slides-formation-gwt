@@ -12,12 +12,12 @@
       o Attention, n’est pas compatible avec toutes les versions de GWT			
 			</pre>
 		</div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Intégration à Spring
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<ul class="summary">
 				<li>
 					Problème : 1 service = 1 servlet

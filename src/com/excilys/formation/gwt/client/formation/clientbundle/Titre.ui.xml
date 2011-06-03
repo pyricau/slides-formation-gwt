@@ -3,7 +3,6 @@
 	 
 	<div>
 		<div ui:field="notes">45min 16h50 - 17h35</div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 		</div>

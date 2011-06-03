@@ -52,12 +52,12 @@ logger.log(Level.Severe, “Mince alors!”);
 Ptet expliquer comment configurer des niveaux de logs différents en fonction des combinaisons GWT (genre utiliser la combinaison GWT avec les logs si ya un param log=true dans la page...)
 			</pre>
 		</div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Journalisation
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<ul class="summary">
 				<li>Intégration de l'api java.util.logging</li>
 				<li>Il existe une multitude de handlers :</li>

@@ -22,12 +22,12 @@
 * initWidget() avec en paramètre le widget principal à "wrapper"
 			</pre>
 		</div>	
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Composite
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<sl:CodeHighlighter addStyleNames="sh" brush="{brushes.JAVA}"><pre>
 				public class ImageWithCaption extends Composite {
 				 

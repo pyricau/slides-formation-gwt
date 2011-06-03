@@ -21,12 +21,12 @@
       o Échange avec un Web-Services ou un back end non java			
 			</pre>
 		</div>	
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Autres méthodes de communication
 		</div>
-		<div class="section">
+        <div class="learningIcon" />
+        <div class="section">
 			<ul class="summary">
 				<li>DeRPC (Direct-Eval RPC)</li>
 				<li>JSON</li>

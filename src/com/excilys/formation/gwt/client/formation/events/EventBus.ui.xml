@@ -22,12 +22,12 @@
 * A utiliser avec un niveau de granularité adapté
 			</pre>
 		</div>	
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			EventBus
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<div class="{style.schema}" />
 			<sl:CodeHighlighter addStyleNames="sh" brush="{brushes.JAVA}"><pre>
 				eventBus.addHandler(CancelActionEvent.TYPE, 

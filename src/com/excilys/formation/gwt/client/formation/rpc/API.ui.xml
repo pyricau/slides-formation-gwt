@@ -19,12 +19,12 @@
       o Déclaration de la servlet dans le web.xml	
 			</pre>
 		</div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			API
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<div class="summary">
 				<div class="{style.api}" />
 				<ul>

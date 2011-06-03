@@ -121,7 +121,6 @@ body.three-d div.slides {
 	position:absolute;
 	left: 10px;
 	top: 10px;
-	z-index: 100;
 	gwt-image: "learningIcon";
 }
 
@@ -132,7 +131,6 @@ body.three-d div.slides {
 	left: 10px;
 	top: 0px;
 	bottom: 0px;
-	z-index: 100;
 	gwt-image: "ebiIcon";
 }
 
@@ -190,7 +188,6 @@ div.footer {
 	margin: 0px;
 	right: 0px;
 	bottom: 0px;
-	z-index: 100;
 	gwt-image: "excilysIcon";
 }
 

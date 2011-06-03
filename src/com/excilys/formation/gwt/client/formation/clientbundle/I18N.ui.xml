@@ -33,12 +33,12 @@ Inconvénients :
     * Chaque locale ajoutée génère des permutations supplémentaires lors de la compilation			
 			</pre>
 		</div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Internationalisation
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<sl:CodeHighlighter addStyleNames="sh" brush="{brushes.JAVA}"><pre>
 				public interface MyMessages extends Messages {
 				

@@ -16,12 +16,12 @@
 * Après avoir cliqué sur le lien, regarder le MotionChart, c’est celui qui est embarqué dans Sonar ;)
 			</pre>
 		</div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Visualization API
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<p>
 				<a
 					href="http://code.google.com/p/gwt-google-apis/wiki/VisualizationGettingStarted">http://code.google.com/p/gwt-google-apis/wiki/VisualizationGettingStarted</a>

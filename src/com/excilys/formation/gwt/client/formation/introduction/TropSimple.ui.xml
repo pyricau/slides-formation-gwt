@@ -14,12 +14,12 @@
 				<li>Démo !</li>
 			</ul>
 		</div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Trop simple !
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<sl:CodeHighlighter addStyleNames="sh" brush="{brushes.JAVA}"><pre>
 				package fr.koala.gwt.introduction.client;
 				// [...]

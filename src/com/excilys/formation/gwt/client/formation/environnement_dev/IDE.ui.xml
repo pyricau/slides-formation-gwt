@@ -10,12 +10,12 @@
       o Éviter la recompilation complète de l’application à chaque modification
 			</pre>
 		</div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			IDE
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<ul>
 				<li>Plugins</li>
 				<li>DevMode</li>

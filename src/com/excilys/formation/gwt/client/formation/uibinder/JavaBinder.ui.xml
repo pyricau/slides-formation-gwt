@@ -19,13 +19,13 @@
 			</ul>
 
 		</div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			UiBinder
 			<span class="nicetag">Impératif</span> <span class="keytag">=</span> <span class="greentag">Java</span>
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<sl:CodeHighlighter addStyleNames="sh" brush="{brushes.JAVA}"><pre>
 				public class Cool extends Composite {
 				

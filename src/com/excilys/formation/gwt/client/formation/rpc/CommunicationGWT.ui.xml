@@ -15,12 +15,12 @@
 Seulement des échanges de données			
 			</pre>
 		</div>	
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Application Web GWT
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<ul class="summary">
 				<li>
 					1 seule page HTML + échange de données

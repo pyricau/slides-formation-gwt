@@ -24,12 +24,12 @@
       o Contenu dans le war de l’application
 			</pre>
 		</div>	
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Communication via RPC
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<ul class="summary">
 				<li>Partage du modèle entre client et serveur</li>
 				<li>Pas de session à gérer (services stateless)</li>

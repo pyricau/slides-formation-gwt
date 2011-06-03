@@ -21,12 +21,12 @@ Bundle compatible avec le module I18N de GWT
 * labels.properties			
 			</pre>
 		</div>		
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Chargement de données texte
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<sl:CodeHighlighter addStyleNames="sh" brush="{brushes.JAVA}"><pre>
 				public interface Resources extends ClientBundle {
 					// une ressource synchrone

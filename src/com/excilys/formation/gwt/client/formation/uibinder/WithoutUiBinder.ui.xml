@@ -14,12 +14,12 @@
 				<li>Mélange comportement et structure</li>
 			</ul>
 		</div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Code lisible ?
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<sl:CodeHighlighter addStyleNames="sh" brush="{brushes.JAVA}"><pre>	
 				// Code issue d'une vraie application		
 				participationStatusPanel.clear();

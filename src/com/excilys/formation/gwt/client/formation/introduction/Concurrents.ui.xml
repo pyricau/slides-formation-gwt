@@ -23,12 +23,12 @@ A ne pas trop approfondir sauf si on a de l’expérience.
       o Inconvénients : Peu utilisé, Codage en Javascript
 			</pre>
 		</div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Concurrents
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<ul class="summary">
 				<li>Flex / Air
 					<ul>

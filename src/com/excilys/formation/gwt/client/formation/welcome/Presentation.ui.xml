@@ -15,12 +15,12 @@
 	</ui:style>
 
 	<div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Steal this slideshow!
 		</div>
-		<div class="section">
+               <div class="learningIcon" />
+        <div class="section">
 			<div class="{style.space}">
 			<h1>Slides full GWT</h1>
 			<p>Basé sur <a href="http://gwthtml5.appspot.com">http://gwthtml5.appspot.com</a></p>

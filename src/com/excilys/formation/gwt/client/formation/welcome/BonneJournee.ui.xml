@@ -2,12 +2,12 @@
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
 
 	<div>
-		<div class="learningIcon" />
 		<div class="header">
 			<div class="ebiIcon" />
 			Bonne journée !
 		</div>
-		<div class="section center">
+        <div class="learningIcon" />
+        <div class="section center">
 			N'oubliez pas de rallumer vos téléphones à la fin ;-)
 		</div>
 		
