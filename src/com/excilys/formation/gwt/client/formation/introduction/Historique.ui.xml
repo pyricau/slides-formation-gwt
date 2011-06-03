@@ -17,7 +17,7 @@ o UIBinder, Code splitting, ...
 			Historique
 		</div>
 		<div class="section">
-			<ul>
+			<ul class="summary">
 				<li>
 					<span class="nicetag">GWT 1.0</span>
 					Mai 2006
