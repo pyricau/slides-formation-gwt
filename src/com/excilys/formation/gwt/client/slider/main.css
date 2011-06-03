@@ -48,7 +48,6 @@ div.slides {
 	background-color: white;
 	gwt-image: "slideBg";
 	-webkit-transition: margin 0.25s ease-in-out;
-	background: literal("-moz-linear-gradient(left bottom, #bbd, #fff)");
 	-moz-transition: margin 0.25s ease-in-out;
 	-o-transition: margin 0.25s ease-in-out;
 	border-top-left-radius: 20px;
