@@ -117,17 +117,6 @@ body.three-d div.slides {
 	-o-transform: literal("translateX(50px) scale(0.8) rotateY(10deg)");
 }
 
-/* Content */
-@font-face {
-	font-family: 'Junction';
-	src: url(src/Junction02.otf);
-}
-
-@font-face {
-	font-family: 'LeagueGothic';
-	src: url(src/LeagueGothic.otf);
-}
-
 @sprite .learningIcon {
 	position:absolute;
 	left: 10px;
@@ -148,10 +137,9 @@ body.three-d div.slides {
 }
 
 div.header {
-	font-family: 'Junction';
+	font-family: 'Arial';
 	font-weight: normal;
 	font-size: 40px;
-	letter-spacing: -.05em;
 	color: white;
 	background-color: themeMainColor;
 	text-shadow: black 1px 1px 2px;
@@ -216,7 +204,7 @@ div.footer {
 
 .intro h2 {
 	color: black;
-	font-family: 'LeagueGothic';
+	font-family: 'Arial';
 	padding: 0;
 	margin: 0;
 	margin-top: -5px;
@@ -233,7 +221,7 @@ h1 {
 }
 
 h2 {
-	font-family: 'Junction';
+	font-family: 'Arial';
 	color: black;
 	font-size: 20px;
 	margin-left: 20px;
@@ -245,7 +233,7 @@ h2:first-child {
 }
 
 div.section {
-	font-family: 'Junction';
+	font-family: 'Arial';
 	font-size: 50px;
 	color: #3f3f3f;
 	text-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px;
@@ -290,7 +278,6 @@ div.section.small li {
 h2 {
 	padding: 0;
 	margin: 15px 0 5px 0;
-	/*        font-family: GG240;*/
 }
 
 div.section.center {
@@ -392,7 +379,7 @@ info {
 
 
 .nicetag, .yellowtag, .greentag, .redtag, .greytag, .keytag, .ebiztag {
-	font-family: 'Junction';
+	font-family: 'Arial';
 	color: black;
 	display: inline-block;
 	padding: 6px 10px 3px 10px;
