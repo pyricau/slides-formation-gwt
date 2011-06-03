@@ -8,9 +8,9 @@
 			<div class="ebiIcon" />
 		</div>
 		<div class="section center intro">
-			<h1>Introduction</h1>
-			<h2>Formation GWT</h2>
-			<p>Utilisez <span class="ebiztag">→</span> pour naviguer</p>
+			<h1>Parlez-vous GWT ?</h1>
+			<h2>Aperçu</h2>
+			<p>Utilisez <span class="ebiztag">←</span> <span class="ebiztag">→</span> pour naviguer</p>
 		</div>
 		
 		<div class="footer">
