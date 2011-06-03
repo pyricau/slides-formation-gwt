@@ -17,8 +17,8 @@
 * Abstraction du code javascript/Ajax
 * Assure la compatibilité entre les navigateurs
 * Approche Light
-      o Dans une application JEE “classique” JSP/Servlet, Struts
-      o Module GWT référencé dans des pages pour en améliorer le contenu/l’ergonomie
+      o Dans une application JEE "classique" JSP/Servlet, Struts
+      o Module GWT référencé dans des pages pour en améliorer le contenu/l'ergonomie
       o Module non volumineux
 * Approche RIA
       o Ergonomie adaptée à un métier complexe
@@ -32,20 +32,15 @@
 		</div>
 		<div class="section">
 			<ul class="summary">
+				<li>RIA Web : <span class="redtag">HTML</span> <span class="keytag">+</span> <span class="ebiztag">Javascript</span> <span class="keytag">+</span> <span class="yellowtag">CSS</span> </li>
+				<li>Développées en <span class="ebiztag">Java</span> <span class="keytag">+</span> <span class="redtag">XML</span></li>
 				<li>
-					RIA (
-					<span class="redtag">HTML</span>
-					/
-					<span class="yellowtag">Javascript</span>
-					/
-					<span class="greentag">CSS</span>
-					) développées en Java
-				</li>
-				<li>
-					Abstraction
+					Avantages
 					<ul>
-						<li>Navigateurs</li>
-						<li>Javascript / Ajax</li>
+						<li>Support multi navigateurs</li>
+						<li>Code optimisé</li>
+						<li>Intégration backend <span class="ebiztag">JEE</span></li>
+						<li>Intégration usine logicielle <span class="ebiztag">Java</span></li>
 					</ul>
 				</li>
 			</ul>
