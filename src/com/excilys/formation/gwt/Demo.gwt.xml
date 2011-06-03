@@ -11,6 +11,6 @@
 	
 	<set-property name="syntaxhighlighter.theme" value="Eclipse"/>
 
-	<entry-point class='com.excilys.formation.gwt.client.formation.Demo' />
+	<entry-point class='com.excilys.formation.gwt.client.formation.DemoPresentation' />
 
 </module>

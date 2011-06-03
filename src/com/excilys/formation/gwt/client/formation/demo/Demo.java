@@ -16,7 +16,7 @@ import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiTemplate;
 import com.google.gwt.user.client.ui.Widget;
 
-public class Introduction extends Chapter {
+public class Demo extends Chapter {
 
     @UiTemplate("Plan.ui.xml")
     public interface Plan extends UiBinder<Widget, WidgetSlide> {
