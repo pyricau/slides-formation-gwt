@@ -6,7 +6,6 @@ import com.excilys.formation.gwt.client.formation.introduction.Introduction.Conc
 import com.excilys.formation.gwt.client.formation.introduction.Introduction.Fonctionnement;
 import com.excilys.formation.gwt.client.formation.introduction.Introduction.Historique;
 import com.excilys.formation.gwt.client.formation.introduction.Introduction.Limitations;
-import com.excilys.formation.gwt.client.formation.introduction.TropSimple;
 import com.excilys.formation.gwt.client.slider.shownotes.ElementSlideNotes;
 import com.excilys.formation.gwt.client.slider.slides.Chapter;
 import com.excilys.formation.gwt.client.slider.slides.WidgetSlide;
