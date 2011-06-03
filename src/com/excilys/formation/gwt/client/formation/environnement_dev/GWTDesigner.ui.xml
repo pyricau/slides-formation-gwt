@@ -27,7 +27,7 @@ Outils WYSIWYG permettant de créer l’IHM GWT
 		<div class="footer">
 			<div ui:field="pagination" class="footerPagination">Page 3</div>
 			<div class="footerTitle">Parlez–vous GWT – © eBusiness Information - Groupe Excilys</div>
-			<div ui:field="date" class="footerDate">30/05/2011</div>
+			<div ui:field="date" class="footerDate">mai 2011</div>
 			<div class="excilysIcon" />
 		</div>
 	</div>
