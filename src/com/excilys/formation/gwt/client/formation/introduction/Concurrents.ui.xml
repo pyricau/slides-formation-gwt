@@ -29,8 +29,21 @@ A ne pas trop approfondir sauf si on a de l’expérience.
 			Concurrents
 		</div>
 		<div class="section">
-			<ul>
-				<li>Des suggestions ?</li>
+			<ul class="summary">
+				<li>Flex / Air
+					<ul>
+						<li><span class="ebiztag">+</span> Contenu <strong>multimédia</strong>, nombreux <strong>widgets</strong>, <strong>Web-Socket</strong></li>
+						<li><span class="ebiztag">-</span> Plugin <strong>Flash</strong> (quid iPhone/iPad ?)</li>
+						<li>Besoins différents, possibilité d'intégrer Flex et GWT</li>
+					</ul>
+				</li>
+				<li>jQuery
+					<ul>
+						<li><span class="ebiztag">+</span> Prise en main <strong>rapide</strong>, léger, cross-browser</li>
+						<li><span class="ebiztag">-</span> <strong>Maintenance</strong></li>
+					</ul>
+				</li>
+				<li>Autres suggestions ?</li>
 			</ul>
 		</div>
 
