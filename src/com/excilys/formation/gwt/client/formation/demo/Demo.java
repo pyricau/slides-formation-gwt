@@ -32,8 +32,8 @@ public class Demo extends Chapter {
         addNotesSlide(Titre.binder);
         addNotesSlide(AQuoi.binder);
         addNotesSlide(Historique.binder);
-        addNotesSlide(Fonctionnement.binder);
-        addNotesSlide(Compilation.binder);
+        addWidgetNotesSlide(Fonctionnement.binder);
+        addWidgetNotesSlide(Compilation.binder);
         addPresentable(new TropSimple());
         addNotesSlide(Limitations.binder);
         addNotesSlide(Concurrents.binder);

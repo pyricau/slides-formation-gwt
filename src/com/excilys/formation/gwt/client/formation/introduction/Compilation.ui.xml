@@ -1,5 +1,6 @@
 <!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
-<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
 
 	<ui:image field="schema" src="compilation.png" />
 
@@ -9,7 +10,7 @@
 		}
 	</ui:style>
 
-	<div>
+	<g:HTMLPanel>
 		<div ui:field="notes">
 		
 			<pre class="details">
@@ -36,7 +37,9 @@
 				<li>Tout se passe à la compilation</li>
 				<li>Création de permutation</li>
 			</ul>
-			<div class="{style.schema}" />
+			<g:VerticalPanel verticalAlignment='ALIGN_MIDDLE' horizontalAlignment='ALIGN_CENTER' width="100%" height="100%">
+				<g:cell><g:FlowPanel addStyleNames="{style.schema}"/></g:cell>
+			</g:VerticalPanel>
 		</div>
 								
 		<div class="footer">
@@ -45,5 +48,5 @@
 			<div ui:field="date" class="footerDate">mai 2011</div>
 			<div class="excilysIcon" />
 		</div>
-	</div>
+	</g:HTMLPanel>
 </ui:UiBinder>
