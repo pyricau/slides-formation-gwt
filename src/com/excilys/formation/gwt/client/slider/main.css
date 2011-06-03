@@ -391,7 +391,7 @@ info {
 }
 
 
-.nicetag, .yellowtag, .greentag, .redtag, .greytag, .keytag {
+.nicetag, .yellowtag, .greentag, .redtag, .greytag, .keytag, .ebiztag {
 	font-family: 'Junction';
 	color: black;
 	display: inline-block;
@@ -442,6 +442,12 @@ info {
 	background: literal("-webkit-gradient(linear, left top, left bottom, from(#88e), to(#eef) )");
 	background-color: #88e;
 	background: literal("-moz-linear-gradient(left top, #88e, #eef)");
+}
+
+.ebiztag {
+	background: literal("-webkit-gradient(linear, left top, left bottom, from(#9FC823), to(#9FDD23) )");
+	background-color: #9FC823;
+	background: literal("-moz-linear-gradient(left top, #9FC823, #9FDD23)");
 }
 
 .sh {
