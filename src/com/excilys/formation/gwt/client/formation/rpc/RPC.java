@@ -37,11 +37,6 @@ public class RPC extends Chapter {
         API binder = GWT.create(API.class);
     }
 
-    @UiTemplate("Spring.ui.xml")
-    interface Spring extends UiBinder<Element, ElementSlideNotes> {
-        Spring binder = GWT.create(Spring.class);
-    }
-
     @UiTemplate("Autres.ui.xml")
     interface Autres extends UiBinder<Element, ElementSlideNotes> {
         Autres binder = GWT.create(Autres.class);
@@ -60,7 +55,6 @@ public class RPC extends Chapter {
         addNotesSlide(CommunicationRPC.binder);
         addNotesSlide(API.binder);
         addWidgetNotesSlide(AsyncCallback.binder);
-        addNotesSlide(Spring.binder);
         addNotesSlide(Autres.binder);
         addSlide(Plan.binder);
     }

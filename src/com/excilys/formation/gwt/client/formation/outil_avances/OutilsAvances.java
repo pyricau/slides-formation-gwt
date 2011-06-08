@@ -54,6 +54,11 @@ public class OutilsAvances extends Chapter {
         GwtDnd binder = GWT.create(GwtDnd.class);
     }
 
+    @UiTemplate("Spring.ui.xml")
+    interface Spring extends UiBinder<Element, ElementSlideNotes> {
+        Spring binder = GWT.create(Spring.class);
+    }
+
     @Override
     protected void buildSlides() {
         addNotesSlide(Titre.binder);
@@ -65,6 +70,7 @@ public class OutilsAvances extends Chapter {
         addWidgetNotesSlide(GoogleGin.binder);
         addVisibleNotesSlide(GwtDnd.binder);
         addSlide(Plan.binder);
+        addNotesSlide(Spring.binder);
     }
 
 }
