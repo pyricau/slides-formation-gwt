@@ -5,7 +5,7 @@
 
 body {
 	font: 14px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
-	background: #778;
+	background: white;
 	padding: 0;
 	margin: 0;
 	overflow: hidden;
@@ -54,6 +54,8 @@ div.slides {
 	-moz-border-radius-topleft: 20px;
 	border-bottom-right-radius: 20px;
 	-moz-border-radius-bottomright: 20px;
+	border: 1px solid #505050;
+	box-shadow: 5px 5px 10px #505050;
 }
 
 div.slide p {
