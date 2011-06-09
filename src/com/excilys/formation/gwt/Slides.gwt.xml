@@ -7,6 +7,8 @@
     
 	<source path='client' />
 
+    <script src="../src/ga.js"/>
+
 	<inherits name='com.alexgorbatchev.syntaxhighlighter.Highlighter'/>
 	
 	<set-property name="syntaxhighlighter.theme" value="Eclipse"/>

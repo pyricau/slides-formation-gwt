@@ -6,6 +6,8 @@
 	<inherits name='com.google.gwt.user.User' />
 
 	<source path='client' />
+    
+    <script src="../src/ga.js"/>
 
 	<inherits name='com.alexgorbatchev.syntaxhighlighter.Highlighter'/>
 	
