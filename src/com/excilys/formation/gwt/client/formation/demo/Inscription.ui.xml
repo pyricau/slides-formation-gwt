@@ -17,7 +17,7 @@
             
             <div class="{style.space}">Envoyez un mail à <a href="mailto:training@excilys.com">training@excilys.com</a> ou appelez le <strong>01 41 24 43 20</strong>.</div>   
                   
-            <div class="{style.space}"><g:Button ui:field="closeButton">Peu importe</g:Button></div>
+            <div class="{style.space}"><g:Button ui:field="closeButton">Non merci</g:Button></div>
         </div>
     </g:HTMLPanel>
 </ui:UiBinder>
