@@ -1,5 +1,6 @@
 package com.excilys.formation.gwt.client.slider.slides;
 
+import com.excilys.formation.gwt.client.slider.Analytics;
 import com.excilys.formation.gwt.client.slider.shownotes.ShowNotesSender;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.uibinder.client.UiBinder;
@@ -107,6 +108,7 @@ public class Presentation extends Composite {
             historyToken = chapterName + SlideViewer.SLIDE_PREFIX + chapter.getSlideName(index);
         }
 
+        Analytics.trackModuleRelativePageView(historyToken);
         History.newItem("!" + historyToken, false);
 
         slideVisible(index - 1);

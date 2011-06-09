@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.alexgorbatchev.syntaxhighlighter.client.Brush;
+import com.excilys.formation.gwt.client.slider.Analytics;
 import com.excilys.formation.gwt.client.slider.PresentationBuilder;
 import com.excilys.formation.gwt.client.slider.PresentationEntryPoint;
 import com.excilys.formation.gwt.client.slider.Resources;
@@ -206,6 +207,8 @@ public class SlideViewer implements ValueChangeHandler<String>, ChapterHolder {
         if (token.startsWith("!")) {
             token = token.substring(1);
         }
+
+        Analytics.trackModuleRelativePageView(token);
 
         String chapterName = parseChapterName(token);
 
