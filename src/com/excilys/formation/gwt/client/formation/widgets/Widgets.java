@@ -29,7 +29,7 @@ public class Widgets extends Chapter {
     }
 
     @UiTemplate("Showcase.ui.xml")
-    interface Showcase extends UiBinder<Widget, VisibleSlide> {
+    public interface Showcase extends UiBinder<Widget, VisibleSlide> {
         Showcase binder = GWT.create(Showcase.class);
     }
 
