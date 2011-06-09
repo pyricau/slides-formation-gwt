@@ -1,5 +1,6 @@
 package com.excilys.formation.gwt.client.formation.demo;
 
+import com.excilys.formation.gwt.client.slider.Analytics;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.uibinder.client.UiBinder;
@@ -23,6 +24,7 @@ public class Inscription extends Composite {
 
     @UiHandler("closeButton")
     void onCloseClick(ClickEvent e) {
+        Analytics.trackModuleRelativePageView("registerDialog/noThanks");
         closable.hide();
     }
 

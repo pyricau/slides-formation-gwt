@@ -13,15 +13,15 @@
                <div class="learningIcon" />
         <div class="section">
 			<ol class="tableOfContent">
-				<li><demo:DemoAnchor>Introduction</demo:DemoAnchor></li>
-				<li><demo:DemoAnchor>Environnement de développement</demo:DemoAnchor></li>
-				<li><demo:DemoAnchor>Development Mode</demo:DemoAnchor></li>
-				<li><demo:DemoAnchor>Widgets</demo:DemoAnchor></li>
-				<li><demo:DemoAnchor>Events</demo:DemoAnchor></li>
-				<li><demo:DemoAnchor>RPC</demo:DemoAnchor></li>
-				<li><demo:DemoAnchor>UiBinder</demo:DemoAnchor></li>
-				<li><demo:DemoAnchor>ClientBundle</demo:DemoAnchor></li>
-				<li><demo:DemoAnchor>Outils avancés</demo:DemoAnchor></li>
+				<li><demo:DemoAnchor page="Introduction">Introduction</demo:DemoAnchor></li>
+				<li><demo:DemoAnchor page="DevEnv">Environnement de développement</demo:DemoAnchor></li>
+				<li><demo:DemoAnchor page="DevMode">Development Mode</demo:DemoAnchor></li>
+				<li><demo:DemoAnchor page="Widgets">Widgets</demo:DemoAnchor></li>
+				<li><demo:DemoAnchor page="Events">Events</demo:DemoAnchor></li>
+				<li><demo:DemoAnchor page="RPC">RPC</demo:DemoAnchor></li>
+				<li><demo:DemoAnchor page="UiBinder">UiBinder</demo:DemoAnchor></li>
+				<li><demo:DemoAnchor page="ClientBundle">ClientBundle</demo:DemoAnchor></li>
+				<li><demo:DemoAnchor page="AdvancedTools">Outils avancés</demo:DemoAnchor></li>
 			</ol>
 		</div>
 		<div class="footer">
