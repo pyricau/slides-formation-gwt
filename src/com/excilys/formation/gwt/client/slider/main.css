@@ -29,7 +29,7 @@ div.slides {
 	overflow: hidden;
 	left: 0;
 	top: 0;
-	position: absolute;
+	position: relative;
 	display: block;
 	-webkit-transition: literal("-webkit-transform 1s ease-in-out");
 	-moz-transition: literal("-moz-transform 1s ease-in-out");
@@ -430,12 +430,6 @@ info {
 	background: literal("-moz-linear-gradient(left top, #88e, #eef)");
 }
 
-.ebiztag {
-	background: literal("-webkit-gradient(linear, left top, left bottom, from(#9FC823), to(#9FDD23) )");
-	background-color: #9FC823;
-	background: literal("-moz-linear-gradient(left top, #9FC823, #9FDD23)");
-}
-
 .sh {
 	font-size: 20px;
 	margin-bottom: 10px;
@@ -455,4 +449,18 @@ info {
 
 .Caption {
 	font-size: 30px;
+}
+
+/*
+	SPECIFIC (to remove from framework)
+*/
+
+.ebiztag {
+	background: literal("-webkit-gradient(linear, left top, left bottom, from(#9FC823), to(#9FDD23) )");
+	background-color: #9FC823;
+	background: literal("-moz-linear-gradient(left top, #9FC823, #9FDD23)");
+}
+
+.registerButton {
+	font-size: 20px;	
 }

@@ -119,6 +119,9 @@ public class SlideViewer implements ValueChangeHandler<String>, ChapterHolder {
         presentationBuilder.loadChapters(this);
 
         presentation = new Presentation(new ShowNotesSender(childWindow));
+
+        presentationBuilder.initTop(presentation.getTop());
+
         stopLoading();
         RootPanel rootPanel = RootPanel.get();
 

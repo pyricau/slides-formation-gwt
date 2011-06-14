@@ -4,6 +4,7 @@ import com.excilys.formation.gwt.client.slider.shownotes.ShowNotesViewer;
 import com.excilys.formation.gwt.client.slider.slides.SlideViewer;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.user.client.Window.Location;
+import com.google.gwt.user.client.ui.SimplePanel;
 
 public abstract class PresentationEntryPoint implements EntryPoint, PresentationBuilder {
 
@@ -19,5 +20,9 @@ public abstract class PresentationEntryPoint implements EntryPoint, Presentation
             SlideViewer slideViewer = new SlideViewer(this);
             slideViewer.load();
         }
+    }
+
+    @Override
+    public void initTop(SimplePanel top) {
     }
 }

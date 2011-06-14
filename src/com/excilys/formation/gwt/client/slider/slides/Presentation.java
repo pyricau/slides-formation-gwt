@@ -9,6 +9,7 @@ import com.google.gwt.user.client.History;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.FlowPanel;
 import com.google.gwt.user.client.ui.RootPanel;
+import com.google.gwt.user.client.ui.SimplePanel;
 import com.google.gwt.user.client.ui.Widget;
 
 public class Presentation extends Composite {
@@ -32,6 +33,9 @@ public class Presentation extends Composite {
     FlowPanel slidesPanel;
 
     private final ShowNotesSender showNotesSender;
+
+    @UiField
+    SimplePanel top;
 
     public Presentation(ShowNotesSender showNotesSender) {
         this.showNotesSender = showNotesSender;
@@ -138,5 +142,9 @@ public class Presentation extends Composite {
         } else {
             RootPanel.get().addStyleName(THREE_D_STYLE);
         }
+    }
+
+    public SimplePanel getTop() {
+        return top;
     }
 }
